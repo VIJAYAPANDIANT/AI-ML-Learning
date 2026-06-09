@@ -1,5 +1,8 @@
 # 🌌 Cyber-Holographic 3D Portfolio
 
+> [!NOTE]
+> **Reference & Demo Model**: This website and repository serve as a reference and demo model of the Cyber-Holographic 3D Portfolio. It is designed to showcase the integration of modern WebGL/3D interfaces, interactive animations, and responsive components in a futuristic cyberpunk aesthetic.
+
 A premium, state-of-the-art interactive developer portfolio featuring a futuristic **Cyberpunk Heads-Up Display (HUD)** design and real-time 3D elements. Built using **React 19**, **Vite**, **TypeScript**, **Tailwind CSS v4**, **Three.js** (`@react-three/fiber`), and **Framer Motion** (`motion/react`).
 
 ---

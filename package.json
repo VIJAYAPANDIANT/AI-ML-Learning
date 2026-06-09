@@ -1,8 +1,22 @@
 {
-  "name": "react-example",
+  "name": "cyber-holographic-portfolio-demo",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A premium, state-of-the-art reference and demo model for a Cyber-Holographic 3D Developer Portfolio built with React 19, Vite, Three.js, Framer Motion, and Tailwind CSS v4.",
   "type": "module",
+  "keywords": [
+    "portfolio",
+    "react-three-fiber",
+    "threejs",
+    "framer-motion",
+    "tailwind-css",
+    "cyberpunk",
+    "hologram",
+    "hud-ui",
+    "developer-portfolio",
+    "demo-model",
+    "reference-model"
+  ],
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
