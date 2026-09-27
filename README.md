@@ -24,7 +24,7 @@ AI-ML-Learning/
 Foundational programming skills required for AI/ML engineering, including data structures, functions, OOP, and script execution.
 
 ### 2. [NumPy](./Numpy/)
-Numerical Python basics — working with $N$-dimensional arrays, broadcasting, vectorization, and mathematical functions.
+Complete 20-notebook hands-on masterclass — covering $N$-dimensional array creation, data types, reshaping, slicing, vectorized arithmetic, broadcasting, aggregate statistics, filtering, random sampling, linear algebra (`np.linalg`), practice exercises, and a real-world Real Estate EDA mini-project.
 
 ---
 
@@ -62,7 +62,7 @@ pip install numpy pandas matplotlib scikit-learn jupyter
 
 - [x] Setting up Environment & Git Workflow
 - [x] Python Basics & Fundamentals
-- [x] NumPy Basics & Array Manipulations
+- [x] NumPy Masterclass (20 Notebooks: Basics to Advanced Linear Algebra & EDA Mini-Project)
 - [ ] Pandas DataFrames & Data Cleaning
 - [ ] Exploratory Data Analysis (EDA)
 - [ ] Classical ML Algorithms (Regression, Classification, Clustering)
