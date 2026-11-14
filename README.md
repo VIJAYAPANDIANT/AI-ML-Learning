@@ -7,19 +7,21 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.20%2B-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Status](https://img.shields.io/badge/Status-Active_Development-success?style=for-the-badge)](#-roadmap--progress)
-[![Notebooks](https://img.shields.io/badge/Notebooks-47%20Completed-blueviolet?style=for-the-badge&logo=gitbook&logoColor=white)](#-curriculum-breakdown)
+[![Notebooks](https://img.shields.io/badge/Notebooks-74%20Completed-blueviolet?style=for-the-badge&logo=gitbook&logoColor=white)](#-curriculum-breakdown)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](#-license)
 
 <br/>
 
 <p align="center">
-  <b>47+ Interactive Notebooks</b> • <b>Zero-to-Hero Curriculum</b> • <b>Real-World Mini-Projects</b> • <b>Vectorized Computing</b>
+  <b>74+ Interactive Notebooks</b> • <b>Zero-to-Hero Curriculum</b> • <b>Real-World Capstone Projects</b> • <b>Vectorized Computing & Wrangling</b>
 </p>
 
 <p align="center">
-  <a href="./Python/"><b>🐍 Explore Python (27 Notebooks)</b></a> •
-  <a href="./Numpy/"><b>🔢 Explore NumPy (20 Notebooks)</b></a> •
+  <a href="./Python/"><b>🐍 Python (27 Notebooks)</b></a> •
+  <a href="./Numpy/"><b>🔢 NumPy (20 Notebooks)</b></a> •
+  <a href="./Pandas/"><b>📊 Pandas (27 Notebooks)</b></a> •
   <a href="#-getting-started"><b>💻 Getting Started</b></a> •
   <a href="#-roadmap--progress"><b>🎯 Roadmap</b></a>
 </p>
@@ -38,10 +40,11 @@ Each module is packed with **interactive Jupyter Notebooks**, clean code snippet
 
 ## 🌟 Key Highlights
 
-- 🧩 **Zero-to-Hero Structured Progression**: Designed step-by-step from core syntax to high-performance scientific computation and modeling.
-- ⚡ **Vectorization & Memory Optimization**: Strong emphasis on avoiding slow Python loops by leveraging NumPy's C-accelerated universal functions (`ufuncs`), multi-axis broadcasting, and understanding memory layout (`copy` vs. `view`).
+- 🧩 **Zero-to-Hero Structured Progression**: Designed step-by-step from core syntax to high-performance scientific computation, tabular data wrangling, and modeling.
+- ⚡ **Vectorization & Memory Optimization**: Strong emphasis on avoiding slow Python loops by leveraging NumPy's C-accelerated universal functions (`ufuncs`), multi-axis broadcasting, memory layout (`copy` vs. `view`), and Pandas categorical downcasting.
 - 🔬 **Applied Mathematics & Linear Algebra**: Hands-on matrix math, transposes, determinants, matrix inverses, and eigenvalue decompositions powering modern ML algorithms.
-- 💼 **Industry-Ready Capstone Projects**: Realistic mini-projects covering analytical system design and exploratory data analysis (EDA).
+- 📊 **Production-Grade Data Wrangling**: Complete mastery of Pandas DataFrames, multi-source merging, groupby aggregations, pivot tables, temporal features, and missing value treatment.
+- 💼 **Industry-Ready Capstone Projects**: Realistic mini-projects covering analytical system design, real estate exploratory data analysis (EDA), and global e-commerce retail pipelines.
 - 📝 **Fully Documented & Reproducible**: Clean, self-contained notebooks with clear markdown explanations, execution outputs, and clean project hierarchies.
 
 ---
@@ -69,7 +72,16 @@ AI-ML-Learning/
 │   ├── 20_numpy_mini_project.ipynb     # Capstone: Real Estate Valuation & EDA Pipeline
 │   └── README.md                       # Exhaustive 20-notebook NumPy masterclass guide
 │
-├── 📊 Pandas/                          # [UPCOMING] Data Wrangling, Time-Series & Feature Engineering
+├── 📊 Pandas/                          # [COMPLETED] 27 Notebooks: Data Wrangling, Time-Series & Analytics
+│   ├── 01-03 Fundamentals             # Intro, 1D Series, 2D DataFrame architecture
+│   ├── 04-07 Data Handling            # File ingestion, inspection, selection, .loc/.iloc slicing
+│   ├── 08-12 Cleaning & Manipulation  # Boolean filters, derived columns, missing values, duplicates, sorting
+│   ├── 13-16 GroupBy & Combining      # Split-Apply-Combine, multi-metric agg, relational merge, concat
+│   ├── 17-25 Advanced & Other Ops     # Apply/map, strings, datetime, pivot tables, crosstabs, optimization
+│   ├── 26_pandas_practice.ipynb       # 10 Multi-domain data engineering problem sets
+│   ├── 27_pandas_mini_project.ipynb    # Capstone: Global E-Commerce & Retail Analytics Pipeline
+│   └── README.md                      # Complete 27-notebook Pandas module guide
+│
 ├── 📉 Data-Visualization/               # [UPCOMING] Exploratory Analysis with Matplotlib, Seaborn & Plotly
 ├── ⚙️ Machine-Learning/                 # [UPCOMING] Supervised & Unsupervised Learning with Scikit-Learn
 └── 🧠 Deep-Learning/                    # [UPCOMING] Neural Networks, PyTorch, TensorFlow & Transformers
@@ -110,24 +122,51 @@ A rigorous masterclass in $N$-dimensional array computing, vectorized operations
 
 ---
 
+### 3. 📊 [Pandas Data Wrangling & Analytics](./Pandas/) (27 Notebooks)
+A production-grade masterclass in tabular data cleaning, manipulation, time-series extraction, and relational operations.
+
+| Category | Notebooks | Key Topics Covered |
+| :--- | :---: | :--- |
+| **Fundamentals** | `01` – `03` | Series (1D), DataFrames (2D), construction methods, metadata inspection (`.dtypes`, `.shape`, `.index`) |
+| **Data Handling** | `04` – `07` | Reading CSV/JSON/Excel, structural inspection (`.info()`, `.describe()`), label/integer slicing (`.loc[]` vs. `.iloc[]`) |
+| **Data Cleaning** | `10`, `11`, `20` | Missing value treatment (`.isna()`, `.fillna()`, `.dropna()`), duplicate identification, header standardization |
+| **Data Manipulation** | `08`, `09`, `12` | Multi-condition boolean masking, `.isin()`, `.query()`, derived column assignment, multi-key sorting (`.sort_values()`) |
+| **Data Analysis** | `13`, `14`, `23` | Split-Apply-Combine groupby, named aggregations, `.transform()`, correlation matrices, descriptive statistics |
+| **Combining Data** | `15` – `16` | Relational merges (inner, left, right, outer), join keys, multi-axis concatenation (`pd.concat`) |
+| **Advanced Operations** | `17`, `21`, `22` | Custom `.apply()` with lambdas, multidimensional pivot tables, frequency cross-tabulation (`pd.crosstab`) |
+| **Other Operations** | `18`, `19`, `24`, `25` | Vectorized text methods (`.str`), temporal dates (`.dt`), storage persistence (CSV/Parquet), memory optimization |
+| **Practice & Capstone** | `26` – `27` | 10 Data engineering problem sets and the **Global E-Commerce & Retail Analytics Pipeline** |
+
+👉 **[View Full Pandas Module Documentation & Notebooks](./Pandas/README.md)**
+
+---
+
 ## 🏆 Featured Capstone Mini-Projects
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>🎓 Student Performance & Analytics System</h3>
+    <td width="33%" valign="top">
+      <h3>🎓 Student Analytics</h3>
       <p><b>Notebook:</b> <code><a href="./Python/27_python_mini_project.ipynb">Python/27_python_mini_project.ipynb</a></code></p>
-      <p>An end-to-end analytics application built with object-oriented Python to process student academic records, calculate multi-subject weighted GPA, evaluate grade percentiles, generate performance distributions, and format automated progress reports.</p>
+      <p>Object-oriented system to process student academic records, evaluate GPAs, compute percentiles, and format automated JSON reports.</p>
       <ul>
-        <li><b>Concepts:</b> Custom Class Design, Error Handling, File I/O, Statistical Aggregation</li>
+        <li><b>Concepts:</b> Custom OOP Classes, File I/O, Error Handling, Aggregation</li>
       </ul>
     </td>
-    <td width="50%" valign="top">
-      <h3>🏠 Real Estate Valuation & EDA Pipeline</h3>
+    <td width="33%" valign="top">
+      <h3>🏠 Real Estate Valuation</h3>
       <p><b>Notebook:</b> <code><a href="./Numpy/20_numpy_mini_project.ipynb">Numpy/20_numpy_mini_project.ipynb</a></code></p>
-      <p>A full numerical exploratory data analysis pipeline evaluating housing datasets <code>[SqFt, Bedrooms, Bathrooms, Price]</code> entirely through vectorized NumPy operations without external data manipulation libraries.</p>
+      <p>Vectorized exploratory data analysis evaluating housing datasets <code>[SqFt, Beds, Baths, Price]</code> entirely through pure NumPy arrays.</p>
       <ul>
-        <li><b>Concepts:</b> Multi-axis aggregation, Price-per-sqft calculations, Outlier filtering, Min-Max feature scaling</li>
+        <li><b>Concepts:</b> Multi-axis stats, Price/SqFt, Outlier masks, Min-Max scaling</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🛒 E-Commerce Pipeline</h3>
+      <p><b>Notebook:</b> <code><a href="./Pandas/27_pandas_mini_project.ipynb">Pandas/27_pandas_mini_project.ipynb</a></code></p>
+      <p>End-to-end retail pipeline performing missing value imputation, margin calculations, multi-level GroupBy KPIs, pivot tables, and CLV analysis.</p>
+      <ul>
+        <li><b>Concepts:</b> Data Cleaning, Imputation, Pivot Tables, CLV Metrics</li>
       </ul>
     </td>
   </tr>
@@ -173,7 +212,7 @@ source venv/bin/activate
 ### 4. Install Dependencies
 ```bash
 pip install --upgrade pip
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter jupyterlab
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter jupyterlab pyarrow openpyxl
 ```
 
 ### 5. Launch the Notebooks
@@ -194,8 +233,8 @@ jupyter lab
 | **01. Setup & Git Workflow** | Git, Virtual Environments, Jupyter Setup | — | `Completed` ✅ |
 | **02. Python Foundations** | Core Syntax, Data Structures, OOP, Advanced Python, Capstone | 27 | `Completed` ✅ |
 | **03. Numerical Computing** | NumPy Arrays, Vectorization, Broadcasting, Linear Algebra, Capstone | 20 | `Completed` ✅ |
-| **04. Data Manipulation** | Pandas Series, DataFrames, Data Cleaning, Merging & Reshaping | — | `In Progress` 🔄 |
-| **05. Data Visualization** | Matplotlib, Seaborn, Interactive Visualizations | — | `Planned` ⏳ |
+| **04. Data Manipulation** | Pandas Series, DataFrames, Data Cleaning, Merging & Analytics, Capstone | 27 | `Completed` ✅ |
+| **05. Data Visualization** | Matplotlib, Seaborn, Interactive Visualizations | — | `In Progress` 🔄 |
 | **06. Exploratory Data Analysis** | Statistical EDA, Feature Relationships, Preprocessing | — | `Planned` ⏳ |
 | **07. Classical Machine Learning** | Supervised & Unsupervised Learning, Scikit-Learn, Evaluation | — | `Planned` ⏳ |
 | **08. Deep Learning Foundations** | PyTorch, Neural Network Architectures, Computer Vision & NLP | — | `Planned` ⏳ |
