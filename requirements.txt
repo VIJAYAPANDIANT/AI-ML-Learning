@@ -1,0 +1,26 @@
+# ==============================================================================
+# AI & Machine Learning Learning Path - Core Requirements
+# ==============================================================================
+
+# Core Numerical & Scientific Computing
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+
+# Tabular Data Manipulation & Feature Engineering
+pandas>=2.0.0
+openpyxl>=3.1.0
+pyarrow>=12.0.0
+
+# Exploratory Data Analysis & Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Classical Machine Learning & Statistical Modeling
+scikit-learn>=1.2.0
+
+# Interactive Notebook Environments & Kernels
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+notebook>=7.0.0
+ipykernel>=6.20.0
+ipywidgets>=8.0.0
