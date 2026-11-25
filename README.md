@@ -9,23 +9,23 @@
 [![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Notebooks](https://img.shields.io/badge/Curriculum-74%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
+[![Notebooks](https://img.shields.io/badge/Curriculum-98%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
 [![Status](https://img.shields.io/badge/Status-Active_Development-0070F3?style=for-the-badge)](#-roadmap--progress)
 [![License](https://img.shields.io/badge/License-MIT-00DF72?style=for-the-badge)](#-license)
 
 <br/>
 
 <p align="center">
-  <b>74+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>High-Performance Vectorization</b>
+  <b>98+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>High-Performance Vectorization</b>
 </p>
 
 <p align="center">
-  <a href="#-curriculum-overview"><b>📖 Curriculum</b></a> •
-  <a href="#-learning-pathway"><b>🗺️ Learning Pathway</b></a> •
+  <a href="./Python/"><b>🐍 Python (27)</b></a> •
+  <a href="./Numpy/"><b>🔢 NumPy (20)</b></a> •
+  <a href="./Pandas/"><b>📊 Pandas (27)</b></a> •
+  <a href="./Matplotlib/"><b>📈 Matplotlib (24)</b></a> •
   <a href="#-master-curriculum-breakdown"><b>📚 Notebook Index</b></a> •
-  <a href="#-featured-capstone-projects"><b>🏆 Capstones</b></a> •
-  <a href="#-quickstart--installation"><b>⚡ Quickstart</b></a> •
-  <a href="#-roadmap--progress"><b>🎯 Roadmap</b></a>
+  <a href="#-featured-capstone-projects"><b>🏆 Capstones</b></a>
 </p>
 
 </div>
@@ -42,10 +42,12 @@
   - [Module 1: 🐍 Python for AI & Data Science (27 Notebooks)](#module-1--python-for-ai--data-science-27-notebooks)
   - [Module 2: 🔢 NumPy Numerical Computing & Linear Algebra (20 Notebooks)](#module-2--numpy-numerical-computing--linear-algebra-20-notebooks)
   - [Module 3: 📊 Pandas Data Wrangling & Feature Engineering (27 Notebooks)](#module-3--pandas-data-wrangling--feature-engineering-27-notebooks)
+  - [Module 4: 📈 Matplotlib for Data Visualization (24 Notebooks)](#module-4--matplotlib-for-data-visualization-24-notebooks)
 - [🏆 Featured Capstone Projects](#-featured-capstone-projects)
   - [1. 🎓 Student Academic Performance & Analytics Engine](#1--student-academic-performance--analytics-engine)
   - [2. 🏠 Vectorized Real Estate Valuation & EDA Pipeline](#2--vectorized-real-estate-valuation--eda-pipeline)
   - [3. 🛒 Global E-Commerce & Retail Intelligence Suite](#3--global-e-commerce--retail-intelligence-suite)
+  - [4. 🌍 Global Health & Economic Development Analytics Dashboard](#4--global-health--economic-development-analytics-dashboard)
 - [⚡ Vectorization & Performance Benchmarks](#-vectorization--performance-benchmarks)
 - [🗂️ Repository Architecture](#️-repository-architecture)
 - [💻 Quickstart & Installation](#-quickstart--installation)
@@ -106,8 +108,8 @@ flowchart TD
         C["📊 Pandas Data Wrangling & Feature Engineering<br/>(27 Notebooks)"]
     end
 
-    subgraph S4["Phase 4: Exploratory Analysis (Upcoming)"]
-        D["📈 Data Visualization & EDA<br/>(Matplotlib, Seaborn, Plotly)"]
+    subgraph S4["Phase 4: Visual Analytics"]
+        D["📈 Matplotlib Data Visualization<br/>(24 Notebooks)"]
     end
 
     subgraph S5["Phase 5: Predictive Modeling (Upcoming)"]
@@ -126,8 +128,8 @@ flowchart TD
 
     classDef completed fill:#10B981,stroke:#059669,stroke-width:2px,color:#ffffff;
     classDef upcoming fill:#3B82F6,stroke:#2563EB,stroke-width:2px,color:#ffffff;
-    class A,B,C completed;
-    class D,E,F upcoming;
+    class A,B,C,D completed;
+    class E,F upcoming;
 ```
 
 ---
@@ -297,6 +299,46 @@ A production-grade masterclass in tabular data cleaning, relational joins, time-
 
 ---
 
+### Module 4: 📈 Matplotlib for Data Visualization (24 Notebooks)
+
+> **Location:** [`./Matplotlib/`](./Matplotlib/) | **Module Guide:** [`Matplotlib/README.md`](./Matplotlib/README.md)
+
+A production-grade masterclass in data visualization, Object-Oriented plotting (`fig, ax`), statistical distributions, multi-panel `GridSpec` dashboards, and 3D spatial surfaces.
+
+<details open>
+<summary><b>Click to expand/collapse all 24 Matplotlib Notebooks</b></summary>
+
+| # | Notebook | Core Topics & Capabilities Covered | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_matplotlib_introduction.ipynb`](./Matplotlib/01_matplotlib_introduction.ipynb) | Pyplot procedural vs Object-Oriented (`fig, ax`), figure anatomy, inline rendering | Completed ✅ |
+| 02 | [`02_matplotlib_figure_and_axes.ipynb`](./Matplotlib/02_matplotlib_figure_and_axes.ipynb) | Canvas dimensions (`figsize`, `dpi`), `add_subplot` vs `add_axes`, Inset magnification plots | Completed ✅ |
+| 03 | [`03_matplotlib_line_plot.ipynb`](./Matplotlib/03_matplotlib_line_plot.ipynb) | Continuous trends, linestyles, colors, ML training loss vs validation loss curves, log scaling | Completed ✅ |
+| 04 | [`04_matplotlib_bar_chart.ipynb`](./Matplotlib/04_matplotlib_bar_chart.ipynb) | Vertical bars, categorical metrics, `ax.bar_label()` value labels, clustered/grouped comparisons | Completed ✅ |
+| 05 | [`05_matplotlib_horizontal_bar_chart.ipynb`](./Matplotlib/05_matplotlib_horizontal_bar_chart.ipynb) | Long category labels, `ax.barh()`, `ax.invert_yaxis()`, Machine Learning Feature Importance | Completed ✅ |
+| 06 | [`06_matplotlib_scatter_plot.ipynb`](./Matplotlib/06_matplotlib_scatter_plot.ipynb) | Pairwise correlation, 4D bubble scatter (X, Y, size, color), colorbars, K-Means cluster overlays | Completed ✅ |
+| 07 | [`07_matplotlib_histogram.ipynb`](./Matplotlib/07_matplotlib_histogram.ipynb) | Continuous data distribution, binning strategies, `density=True`, Gaussian bell curve overlays | Completed ✅ |
+| 08 | [`08_matplotlib_pie_chart.ipynb`](./Matplotlib/08_matplotlib_pie_chart.ipynb) | Part-to-whole proportions, `autopct` formatting, exploded wedges, modern Donut charts | Completed ✅ |
+| 09 | [`09_matplotlib_box_plot.ipynb`](./Matplotlib/09_matplotlib_box_plot.ipynb) | Five-number summary (Min, Q1, Median, Q3, Max), IQR outlier fliers, cross-validation model scores | Completed ✅ |
+| 10 | [`10_matplotlib_subplots.ipynb`](./Matplotlib/10_matplotlib_subplots.ipynb) | `plt.subplots(nrows, ncols)`, 2D axes iteration with `axes.flat`, shared axes, `GridSpec` layouts | Completed ✅ |
+| 11 | [`11_matplotlib_titles_labels_and_legends.ipynb`](./Matplotlib/11_matplotlib_titles_labels_and_legends.ipynb) | LaTeX math typesetting ($R^2$, $\sigma$), typography, `loc`, `bbox_to_anchor`, external legends | Completed ✅ |
+| 12 | [`12_matplotlib_colors_and_styles.ipynb`](./Matplotlib/12_matplotlib_colors_and_styles.ipynb) | `plt.style.available`, `seaborn-v0_8`, `dark_background`, colormaps (`viridis`, `coolwarm`), correlation heatmaps | Completed ✅ |
+| 13 | [`13_matplotlib_markers_and_linestyles.ipynb`](./Matplotlib/13_matplotlib_markers_and_linestyles.ipynb) | Marker types (`o`, `s`, `^`, `D`, `*`), face/edge colors (`mfc`, `mec`), stepped lines (`steps-post`) | Completed ✅ |
+| 14 | [`14_matplotlib_grid_and_ticks.ipynb`](./Matplotlib/14_matplotlib_grid_and_ticks.ipynb) | Major & minor grids, `MultipleLocator`, `PercentFormatter`, Dual-Axis charts with `ax.twinx()` | Completed ✅ |
+| 15 | [`15_matplotlib_annotations.ipynb`](./Matplotlib/15_matplotlib_annotations.ipynb) | Precision pointers (`ax.annotate`), arrow styles, reference thresholds (`ax.axhline`, `ax.axvspan`) | Completed ✅ |
+| 16 | [`16_matplotlib_customization.ipynb`](./Matplotlib/16_matplotlib_customization.ipynb) | Edward Tufte minimal data-ink ratio, removing spines, global configuration with `plt.rcParams` | Completed ✅ |
+| 17 | [`17_matplotlib_fill_and_area_plots.ipynb`](./Matplotlib/17_matplotlib_fill_and_area_plots.ipynb) | `ax.fill_between()`, 95% confidence intervals around forecasts, conditional profit/loss shading | Completed ✅ |
+| 18 | [`18_matplotlib_stacked_bar_chart.ipynb`](./Matplotlib/18_matplotlib_stacked_bar_chart.ipynb) | Vertical stacked bars with `bottom`, horizontal with `left`, 100% normalized proportional bars | Completed ✅ |
+| 19 | [`19_matplotlib_error_bars.ipynb`](./Matplotlib/19_matplotlib_error_bars.ipynb) | Experimental uncertainty, symmetric vs asymmetric error bounds (`yerr`, `xerr`), cap customization | Completed ✅ |
+| 20 | [`20_matplotlib_date_and_time_plots.ipynb`](./Matplotlib/20_matplotlib_date_and_time_plots.ipynb) | Time series plotting, `matplotlib.dates`, `DateFormatter`, `fig.autofmt_xdate()`, moving average crossovers | Completed ✅ |
+| 21 | [`21_matplotlib_3d_plots.ipynb`](./Matplotlib/21_matplotlib_3d_plots.ipynb) | `mplot3d` toolkit, 3D scatter, 3D parametric trajectories, loss surface plots with `ax.plot_surface()` | Completed ✅ |
+| 22 | [`22_matplotlib_saving_and_exporting.ipynb`](./Matplotlib/22_matplotlib_saving_and_exporting.ipynb) | Production exporting (`fig.savefig`), vector (PDF/SVG) vs raster (PNG/JPG), `dpi=300`, `bbox_inches='tight'` | Completed ✅ |
+| 23 | [`23_matplotlib_practice.ipynb`](./Matplotlib/23_matplotlib_practice.ipynb) | 10 Comprehensive multi-domain problem sets with complete code implementations | Completed ✅ |
+| 24 | [`24_matplotlib_mini_project.ipynb`](./Matplotlib/24_matplotlib_mini_project.ipynb) | **Capstone:** Global Economic & Public Health Analytics Dashboard (Gapminder-style visualization suite) | Completed ✅ |
+
+</details>
+
+---
+
 ## 🏆 Featured Capstone Projects
 
 Each module culminates in an industry-style capstone project that synthesizes all preceding concepts into a single, cohesive, production-grade application:
@@ -311,7 +353,14 @@ Each module culminates in an industry-style capstone project that synthesizes al
 │ • Weighted GPA Evaluation    │ • Z-score Feature Scaling        │ • Missing Value Imputation    │
 │ • Percentile Distributions   │ • Matrix Outlier Rejection       │ • Dynamic Pivot Tables        │
 │ • Automated JSON Reporting   │ • Housing Price / SqFt Metrics   │ • Customer Lifetime Value     │
-└──────────────────────────────┴──────────────────────────────────┴───────────────────────────────┘
+├──────────────────────────────┴──────────────────────────────────┴───────────────────────────────┤
+│ 🌍 Global Health & Economic Development Analytics Dashboard [Matplotlib Capstone]              │
+│ • Asymmetric Multi-Panel GridSpec Architecture (4-Panel Publication Dashboard)                  │
+│ • Multi-Dimensional Bubble Scatter: GDP vs Life Expectancy (Log-Scale, Population Size, Region) │
+│ • Statistical Uncertainty: Continental Error Bars & Infant Mortality Boxplots                   │
+│ • 20-Year Global Improvement Trends with Shaded 95% Confidence Intervals (fill_between)         │
+│ • Minimalist Tufte Spines & Automated Publication-Quality High-Resolution Export (300 DPI)      │
+└─────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### 1. 🎓 Student Academic Performance & Analytics Engine
@@ -331,6 +380,12 @@ Each module culminates in an industry-style capstone project that synthesizes al
 - **Primary Stack:** Pandas 2.0+, PyArrow, Parquet, NumPy
 - **Key Concepts:** Multi-source relational joins (`orders`, `customers`, `products`), date-time feature extraction (`day_name`, `order_month`), categorical downcasting, hierarchical pivot tables, Customer Lifetime Value (CLV) cohort analysis.
 - **Problem Solved:** Transforms messy, disparate transactional records into an executive analytics dashboard, evaluating product profit margins, customer churn signals, and regional sales velocity.
+
+### 4. 🌍 Global Health & Economic Development Analytics Dashboard
+- **Notebook:** [`Matplotlib/24_matplotlib_mini_project.ipynb`](./Matplotlib/24_matplotlib_mini_project.ipynb)
+- **Primary Stack:** Matplotlib 3.7+, `GridSpec`, NumPy, Pandas
+- **Key Concepts:** Multidimensional bubble charts with logarithmic scaling, continent error-bar benchmarks, regional infant mortality boxplots, 20-year trend forecasts with 95% confidence interval shading, minimal spine styling, and publication export (`dpi=300`).
+- **Problem Solved:** Synthesizes multi-indicator socioeconomic indicators across 60 global nations into an executive visual dashboard tracking health outcomes, healthcare spending efficiency, and wealth disparities.
 
 ---
 
@@ -378,7 +433,16 @@ AI-ML-Learning/
 │   ├── 27_pandas_mini_project.ipynb    # Capstone: Global E-Commerce & Retail Analytics
 │   └── README.md                       # Comprehensive Pandas module guide
 │
-├── 📈 Data-Visualization/              # [UPCOMING] Matplotlib, Seaborn, Plotly
+├── 📈 Matplotlib/                      # [COMPLETED] 24 Notebooks: Data Visualization & Dashboards
+│   ├── 01_matplotlib_introduction.ipynb
+│   ├── ...
+│   ├── 10_matplotlib_subplots.ipynb    # Multi-panel layouts & GridSpec
+│   ├── 21_matplotlib_3d_plots.ipynb    # 3D spatial surfaces & optimization landscapes
+│   ├── 23_matplotlib_practice.ipynb    # 10 Multi-domain visualization challenges
+│   ├── 24_matplotlib_mini_project.ipynb # Capstone: Global Economic & Health Analytics
+│   └── README.md                       # Comprehensive Matplotlib module guide
+│
+├── 📊 Seaborn/                         # [UPCOMING] Statistical Data Visualization
 ├── ⚙️ Machine-Learning/                # [UPCOMING] Scikit-Learn Supervised & Unsupervised
 ├── 🧠 Deep-Learning/                   # [UPCOMING] PyTorch, Neural Networks, Transformers
 │
@@ -491,7 +555,7 @@ jupyter notebook
 
 ## 📐 Best Practices & Coding Philosophy
 
-Throughout all 74 notebooks, the code strictly adheres to modern industry engineering standards:
+Throughout all 98 notebooks, the code strictly adheres to modern industry engineering standards:
 
 1. **PEP 8 Compliance**: Consistent `snake_case` variable naming, uppercase `UPPER_CASE` constants, and clear function docstrings.
 2. **Vectorize First, Loop Never**: Eliminating manual element-by-element iterations whenever a library function can compute in compiled C.
@@ -508,7 +572,11 @@ Throughout all 74 notebooks, the code strictly adheres to modern industry engine
 | **01** | **Python Programming** | Syntax, Data Structures, OOP, Advanced Features, Capstone | 27 / 27 | Completed ✅ |
 | **02** | **NumPy Masterclass** | Ndarrays, Vectorization, Broadcasting, Linear Algebra, Capstone | 20 / 20 | Completed ✅ |
 | **03** | **Pandas Data Wrangling** | Series, DataFrames, Merging, GroupBy, Optimization, Capstone | 27 / 27 | Completed ✅ |
-| **04** | **Data Visualization** | Matplotlib, Seaborn distributions, Interactive Plotly charts | — | In Progress 🔄 |
+| **04** | **Data Visualization** | Matplotlib Figure Anatomy, Multi-Panel GridSpec, Statistical & 3D Plots, Capstone | 24 / 24 | Completed ✅ |
+| **05** | **Exploratory Data Analysis** | Statistical hypothesis testing, correlation analysis, feature profiling | — | Planned ⏳ |
+| **06** | **Classical Machine Learning** | Scikit-Learn regression, classification, clustering, cross-validation | — | Planned ⏳ |
+| **07** | **Deep Learning Foundations** | PyTorch, Backpropagation, CNNs for Vision, RNNs & Transformers | — | Planned ⏳ |
+| **08** | **Generative AI & MLOps** | LLM fine-tuning, RAG pipelines, model deployment & monitoring | — | Planned ⏳ |
 | **05** | **Exploratory Data Analysis** | Statistical hypothesis testing, correlation analysis, feature profiling | — | Planned ⏳ |
 | **06** | **Classical Machine Learning** | Scikit-Learn regression, classification, clustering, cross-validation | — | Planned ⏳ |
 | **07** | **Deep Learning Foundations** | PyTorch, Backpropagation, CNNs for Vision, RNNs & Transformers | — | Planned ⏳ |
