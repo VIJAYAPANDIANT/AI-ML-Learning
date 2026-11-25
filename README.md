@@ -10,14 +10,14 @@
 [![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-4C72B0?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Notebooks](https://img.shields.io/badge/Curriculum-124%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
+[![Notebooks](https://img.shields.io/badge/Curriculum-159%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
 [![Status](https://img.shields.io/badge/Status-Active_Development-0070F3?style=for-the-badge)](#-roadmap--progress)
 [![License](https://img.shields.io/badge/License-MIT-00DF72?style=for-the-badge)](#-license)
 
 <br/>
 
 <p align="center">
-  <b>124+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>High-Performance Vectorization</b>
+  <b>159+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>Machine Learning Pipelines</b>
 </p>
 
 <p align="center">
@@ -26,6 +26,7 @@
   <a href="./Pandas/"><b>📊 Pandas (27)</b></a> •
   <a href="./Matplotlib/"><b>📈 Matplotlib (24)</b></a> •
   <a href="./Seaborn/"><b>📊 Seaborn (26)</b></a> •
+  <a href="./Scikit-learn/"><b>⚙️ Scikit-Learn (35)</b></a> •
   <a href="#-master-curriculum-breakdown"><b>📚 Notebook Index</b></a> •
   <a href="#-featured-capstone-projects"><b>🏆 Capstones</b></a>
 </p>
@@ -46,12 +47,14 @@
   - [Module 3: 📊 Pandas Data Wrangling & Feature Engineering (27 Notebooks)](#module-3--pandas-data-wrangling--feature-engineering-27-notebooks)
   - [Module 4: 📈 Matplotlib for Data Visualization (24 Notebooks)](#module-4--matplotlib-for-data-visualization-24-notebooks)
   - [Module 5: 📊 Seaborn for Statistical Data Visualization (26 Notebooks)](#module-5--seaborn-for-statistical-data-visualization-26-notebooks)
+  - [Module 6: ⚙️ Scikit-Learn for Machine Learning & Modeling (35 Notebooks)](#module-6--scikit-learn-for-machine-learning--modeling-35-notebooks)
 - [🏆 Featured Capstone Projects](#-featured-capstone-projects)
   - [1. 🎓 Student Academic Performance & Analytics Engine](#1--student-academic-performance--analytics-engine)
   - [2. 🏠 Vectorized Real Estate Valuation & EDA Pipeline](#2--vectorized-real-estate-valuation--eda-pipeline)
   - [3. 🛒 Global E-Commerce & Retail Intelligence Suite](#3--global-e-commerce--retail-intelligence-suite)
   - [4. 🌍 Global Health & Economic Development Analytics Dashboard](#4--global-health--economic-development-analytics-dashboard)
   - [5. 🏦 Financial Risk & Customer Credit Default Analytics Suite](#5--financial-risk--customer-credit-default-analytics-suite)
+  - [6. 🎯 Enterprise Customer Churn & Lifetime Risk Predictive Pipeline](#6--enterprise-customer-churn--lifetime-risk-predictive-pipeline)
 - [⚡ Vectorization & Performance Benchmarks](#-vectorization--performance-benchmarks)
 - [🗂️ Repository Architecture](#️-repository-architecture)
 - [💻 Quickstart & Installation](#-quickstart--installation)
@@ -116,8 +119,8 @@ flowchart TD
         D["📈 Matplotlib (24) & 📊 Seaborn (26)<br/>(50 Completed Notebooks)"]
     end
 
-    subgraph S5["Phase 5: Predictive Modeling (Upcoming)"]
-        E["⚙️ Classical Machine Learning<br/>(Scikit-Learn: Supervised & Unsupervised)"]
+    subgraph S5["Phase 5: Predictive Modeling"]
+        E["⚙️ Classical Machine Learning<br/>(Scikit-Learn: 35 Completed Notebooks)"]
     end
 
     subgraph S6["Phase 6: Deep Learning & Modern AI (Upcoming)"]
@@ -132,8 +135,8 @@ flowchart TD
 
     classDef completed fill:#10B981,stroke:#059669,stroke-width:2px,color:#ffffff;
     classDef upcoming fill:#3B82F6,stroke:#2563EB,stroke-width:2px,color:#ffffff;
-    class A,B,C,D completed;
-    class E,F upcoming;
+    class A,B,C,D,E completed;
+    class F upcoming;
 ```
 
 ---
@@ -385,6 +388,57 @@ A production-grade masterclass in statistical visualization, multi-dimensional d
 
 ---
 
+### Module 6: ⚙️ Scikit-Learn for Machine Learning & Modeling (35 Notebooks)
+
+> **Location:** [`./Scikit-learn/`](./Scikit-learn/) | **Module Guide:** [`Scikit-learn/README.md`](./Scikit-learn/README.md)
+
+A production-grade masterclass in classical machine learning, data preprocessing, regression, classification, unsupervised clustering, dimensionality reduction, cross-validation, and production pipelines.
+
+<details open>
+<summary><b>Click to expand/collapse all 35 Scikit-Learn Notebooks</b></summary>
+
+| # | Notebook | Core Topics & Capabilities Covered | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_scikit_learn_introduction.ipynb`](./Scikit-learn/01_scikit_learn_introduction.ipynb) | Scikit-learn architecture, Estimator API (`fit`, `predict`, `score`), conventions | Completed ✅ |
+| 02 | [`02_machine_learning_workflow.ipynb`](./Scikit-learn/02_machine_learning_workflow.ipynb) | 5-stage ML lifecycle: data collection, splitting, preprocessing, modeling, evaluation | Completed ✅ |
+| 03 | [`03_loading_datasets.ipynb`](./Scikit-learn/03_loading_datasets.ipynb) | Toy datasets (`iris`, `diabetes`), OpenML fetching, synthetic data generators (`make_classification`) | Completed ✅ |
+| 04 | [`04_features_and_labels.ipynb`](./Scikit-learn/04_features_and_labels.ipynb) | Feature matrix $X$ ($N \times P$) vs target vector $y$, continuous vs discrete targets | Completed ✅ |
+| 05 | [`05_train_test_split.ipynb`](./Scikit-learn/05_train_test_split.ipynb) | `train_test_split`, `stratify` parameter for class preservation, reproducibility seeding | Completed ✅ |
+| 06 | [`06_data_preprocessing.ipynb`](./Scikit-learn/06_data_preprocessing.ipynb) | Transformer API, `fit_transform` on train vs `transform` on test, preventing leakage | Completed ✅ |
+| 07 | [`07_handling_missing_values.ipynb`](./Scikit-learn/07_handling_missing_values.ipynb) | Imputation strategies: `SimpleImputer` (mean/median/mode), `KNNImputer` distance weights | Completed ✅ |
+| 08 | [`08_encoding_categorical_data.ipynb`](./Scikit-learn/08_encoding_categorical_data.ipynb) | `OneHotEncoder`, `OrdinalEncoder`, `LabelEncoder`, handling unseen test categories | Completed ✅ |
+| 09 | [`09_feature_scaling.ipynb`](./Scikit-learn/09_feature_scaling.ipynb) | `StandardScaler` (Z-score), `MinMaxScaler` (0-1), `RobustScaler` (median & IQR outliers) | Completed ✅ |
+| 10 | [`10_feature_selection.ipynb`](./Scikit-learn/10_feature_selection.ipynb) | Filter methods (`SelectKBest`, ANOVA F-test), Recursive Feature Elimination (`RFE`) | Completed ✅ |
+| 11 | [`11_linear_regression.ipynb`](./Scikit-learn/11_linear_regression.ipynb) | Ordinary Least Squares (OLS), slope `coef_`, intercept `intercept_`, $R^2$ score | Completed ✅ |
+| 12 | [`12_multiple_linear_regression.ipynb`](./Scikit-learn/12_multiple_linear_regression.ipynb) | Multicollinearity, Ridge regression ($L_2$), Lasso regression ($L_1$) feature pruning | Completed ✅ |
+| 13 | [`13_polynomial_regression.ipynb`](./Scikit-learn/13_polynomial_regression.ipynb) | `PolynomialFeatures`, interaction terms, Bias-Variance tradeoff visualization | Completed ✅ |
+| 14 | [`14_logistic_regression.ipynb`](./Scikit-learn/14_logistic_regression.ipynb) | Binary classification, Sigmoid curve, `predict_proba()`, decision threshold tuning | Completed ✅ |
+| 15 | [`15_knn_classification.ipynb`](./Scikit-learn/15_knn_classification.ipynb) | Non-parametric instance learning, Euclidean distance, $k$-neighbor optimization curve | Completed ✅ |
+| 16 | [`16_decision_tree.ipynb`](./Scikit-learn/16_decision_tree.ipynb) | CART trees, Gini impurity vs Entropy, tree pruning (`max_depth`), `plot_tree` flowcharts | Completed ✅ |
+| 17 | [`17_random_forest.ipynb`](./Scikit-learn/17_random_forest.ipynb) | Bootstrap Aggregation (Bagging), feature subspacing, Out-Of-Bag (`oob_score_`) error | Completed ✅ |
+| 18 | [`18_support_vector_machine.ipynb`](./Scikit-learn/18_support_vector_machine.ipynb) | Support vectors, maximum margin hyperplanes, Kernel Trick (Linear, RBF, Polynomial) | Completed ✅ |
+| 19 | [`19_naive_bayes.ipynb`](./Scikit-learn/19_naive_bayes.ipynb) | Bayes' Theorem, feature independence assumption, `GaussianNB` continuous probabilities | Completed ✅ |
+| 20 | [`20_gradient_boosting.ipynb`](./Scikit-learn/20_gradient_boosting.ipynb) | Sequential boosting on pseudo-residuals, learning rate shrinkage, loss reduction curve | Completed ✅ |
+| 21 | [`21_k_means_clustering.ipynb`](./Scikit-learn/21_k_means_clustering.ipynb) | Centroid clustering, inertia metric, Elbow Method heuristic, Silhouette coefficient | Completed ✅ |
+| 22 | [`22_hierarchical_clustering.ipynb`](./Scikit-learn/22_hierarchical_clustering.ipynb) | Agglomerative hierarchical clustering, Ward/complete linkage, dendrogram visualization | Completed ✅ |
+| 23 | [`23_dbscan_clustering.ipynb`](./Scikit-learn/23_dbscan_clustering.ipynb) | Density-based spatial clustering, core/border points, arbitrary geometry, noise detection | Completed ✅ |
+| 24 | [`24_pca_dimensionality_reduction.ipynb`](./Scikit-learn/24_pca_dimensionality_reduction.ipynb) | Principal Component Analysis, eigenvalue variance decomposition, Scree plots | Completed ✅ |
+| 25 | [`25_model_evaluation.ipynb`](./Scikit-learn/25_model_evaluation.ipynb) | Generalization error, overfitting vs underfitting diagnosis, train/validation curves | Completed ✅ |
+| 26 | [`26_confusion_matrix.ipynb`](./Scikit-learn/26_confusion_matrix.ipynb) | TP, FP, TN, FN analysis, Type I / Type II error rates, `ConfusionMatrixDisplay` | Completed ✅ |
+| 27 | [`27_classification_metrics.ipynb`](./Scikit-learn/27_classification_metrics.ipynb) | Precision, Recall, F1-Score, Balanced Accuracy, ROC-AUC, Precision-Recall curves | Completed ✅ |
+| 28 | [`28_regression_metrics.ipynb`](./Scikit-learn/28_regression_metrics.ipynb) | Mean Absolute Error (MAE), Mean Squared Error (MSE), Root MSE (RMSE), $R^2$ score | Completed ✅ |
+| 29 | [`29_cross_validation.ipynb`](./Scikit-learn/29_cross_validation.ipynb) | K-Fold, Stratified K-Fold cross-validation, `cross_val_score`, variance reduction | Completed ✅ |
+| 30 | [`30_hyperparameter_tuning.ipynb`](./Scikit-learn/30_hyperparameter_tuning.ipynb) | Estimator parameters vs hyperparameters, validation curves across parameter ranges | Completed ✅ |
+| 31 | [`31_grid_search_and_random_search.ipynb`](./Scikit-learn/31_grid_search_and_random_search.ipynb) | Exhaustive `GridSearchCV` vs resource-efficient `RandomizedSearchCV` distributions | Completed ✅ |
+| 32 | [`32_pipelines.ipynb`](./Scikit-learn/32_pipelines.ipynb) | `Pipeline`, `ColumnTransformer`, zero-leakage heterogeneous feature workflows | Completed ✅ |
+| 33 | [`33_model_persistence.ipynb`](./Scikit-learn/33_model_persistence.ipynb) | Estimator serialization with `joblib.dump` and `joblib.load`, production deployment | Completed ✅ |
+| 34 | [`34_scikit_learn_practice.ipynb`](./Scikit-learn/34_scikit_learn_practice.ipynb) | 10 Comprehensive multi-domain algorithmic practice sets with complete solutions | Completed ✅ |
+| 35 | [`35_scikit_learn_mini_project.ipynb`](./Scikit-learn/35_scikit_learn_mini_project.ipynb) | **Capstone:** End-to-End Enterprise Customer Churn & Risk Predictive Pipeline | Completed ✅ |
+
+</details>
+
+---
+
 ## 🏆 Featured Capstone Projects
 
 Each module culminates in an industry-style capstone project that synthesizes all preceding concepts into a single, cohesive, production-grade application:
@@ -413,6 +467,13 @@ Each module culminates in an industry-style capstone project that synthesizes al
 │ • Masked Lower-Triangle Correlation Heatmap with Diverging Colormap (vlag)                      │
 │ • Logistic Regression Default Probability Modeling as a Function of Borrower Credit Score       │
 │ • Automated 300 DPI Publication Export & Minimalist Theme Despining                             │
+├─────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ 🎯 Enterprise Churn & Risk Predictive Pipeline [Scikit-Learn Capstone]                           │
+│ • Leakage-Free End-to-End Pipeline with ColumnTransformer (OneHotEncoder + RobustScaler)       │
+│ • Synthetic 5,000-Customer Enterprise Telecom & SaaS Churn Dataset with Realistic Imbalance    │
+│ • Multi-Model Benchmark: Logistic Regression, Random Forest, Gradient Boosting (ROC-AUC / PR) │
+│ • RandomizedSearchCV Hyperparameter Optimization & Cost-Sensitive Threshold Decision Matrix   │
+│ • Automated Production Model Serialization (Joblib Pipeline Bundle with Metadata & Metrics)   │
 └─────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -445,6 +506,12 @@ Each module culminates in an industry-style capstone project that synthesizes al
 - **Primary Stack:** Seaborn 0.12+, Matplotlib, Pandas, NumPy
 - **Key Concepts:** Multi-feature borrower risk profiling, empirical default rate bar charts with 95% bootstrap confidence bounds, FICO score distributions across loan purposes, masked correlation heatmap, and logistic regression default probability curves.
 - **Problem Solved:** Performs an exhaustive statistical Exploratory Data Analysis (EDA) on loan portfolio records to diagnose key credit default drivers and model default probabilities against FICO scores.
+
+### 6. 🎯 Enterprise Customer Churn & Lifetime Risk Predictive Pipeline
+- **Notebook:** [`Scikit-learn/35_scikit_learn_mini_project.ipynb`](./Scikit-learn/35_scikit_learn_mini_project.ipynb)
+- **Primary Stack:** Scikit-Learn 1.2+, NumPy, Pandas, Matplotlib, Joblib
+- **Key Concepts:** Leakage-free preprocessing (`ColumnTransformer`), feature scaling (`RobustScaler`), categorical encoding (`OneHotEncoder`), multi-model benchmarking (`LogisticRegression`, `RandomForestClassifier`, `GradientBoostingClassifier`), ROC-AUC and Precision-Recall tradeoff analysis, hyperparameter tuning via `RandomizedSearchCV`, and production persistence using `joblib`.
+- **Problem Solved:** Builds a production-ready predictive system diagnosing early customer attrition signals across 5,000 enterprise accounts, optimizing retention intervention thresholds, and serializing the entire operational pipeline bundle for automated inference.
 
 ---
 
@@ -510,7 +577,14 @@ AI-ML-Learning/
 │   ├── 26_seaborn_mini_project.ipynb   # Capstone: Credit Risk & Default Analytics
 │   └── README.md                       # Comprehensive Seaborn module guide
 │
-├── ⚙️ Machine-Learning/                # [UPCOMING] Scikit-Learn Supervised & Unsupervised
+├── ⚙️ Scikit-learn/                     # [COMPLETED] 35 Notebooks: Classical ML, Preprocessing & Pipelines
+│   ├── 01_scikit_learn_introduction.ipynb
+│   ├── ...
+│   ├── 32_pipelines.ipynb              # Zero-leakage ColumnTransformer & Pipeline workflows
+│   ├── 34_scikit_learn_practice.ipynb  # 10 Multi-domain algorithmic challenges
+│   ├── 35_scikit_learn_mini_project.ipynb # Capstone: Enterprise Churn & Risk Pipeline
+│   └── README.md                       # Comprehensive Scikit-learn module guide
+│
 ├── 🧠 Deep-Learning/                   # [UPCOMING] PyTorch, Neural Networks, Transformers
 │
 ├── .gitignore                          # Standard Python/Jupyter ignore rules
@@ -622,7 +696,7 @@ jupyter notebook
 
 ## 📐 Best Practices & Coding Philosophy
 
-Throughout all 124 notebooks, the code strictly adheres to modern industry engineering standards:
+Throughout all 159 notebooks, the code strictly adheres to modern industry engineering standards:
 
 1. **PEP 8 Compliance**: Consistent `snake_case` variable naming, uppercase `UPPER_CASE` constants, and clear function docstrings.
 2. **Vectorize First, Loop Never**: Eliminating manual element-by-element iterations whenever a library function can compute in compiled C.
@@ -641,7 +715,7 @@ Throughout all 124 notebooks, the code strictly adheres to modern industry engin
 | **03** | **Pandas Data Wrangling** | Series, DataFrames, Merging, GroupBy, Optimization, Capstone | 27 / 27 | Completed ✅ |
 | **04** | **Data Visualization** | Matplotlib (24) & Seaborn (26): Figure Anatomy, Grids, 3D, Heatmaps, Capstones | 50 / 50 | Completed ✅ |
 | **05** | **Exploratory Data Analysis** | Statistical hypothesis testing, correlation analysis, feature profiling | — | Planned ⏳ |
-| **06** | **Classical Machine Learning** | Scikit-Learn regression, classification, clustering, cross-validation | — | Planned ⏳ |
+| **06** | **Classical Machine Learning** | Scikit-Learn regression, classification, clustering, cross-validation | 35 / 35 | Completed ✅ |
 | **07** | **Deep Learning Foundations** | PyTorch, Backpropagation, CNNs for Vision, RNNs & Transformers | — | Planned ⏳ |
 | **08** | **Generative AI & MLOps** | LLM fine-tuning, RAG pipelines, model deployment & monitoring | — | Planned ⏳ |
 
