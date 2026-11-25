@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=AI+%2F+ML+Engineer+%26+Data+Scientist;Generative+AI+%26+RAG+Architect;Autonomous+AI+Agents+%26+Deep+Learning;345%2B+Production+Notebooks+%7C+18+Industry+Projects)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=AI+%2F+ML+Engineer+%26+Data+Scientist;Generative+AI+%26+RAG+Architect;Autonomous+AI+Agents+%26+Deep+Learning;365%2B+Production+Notebooks+%7C+18+Industry+Projects)](https://git.io/typing-svg)
 
 <p align="center">
   <b>Transforming complex algorithms and big data into scalable, production-ready AI architectures.</b><br/>
@@ -22,9 +22,9 @@
 <div align="center">
 
 ### 🤖 [AI-ML-Learning: Full AI/ML & Generative AI Masterclass](https://github.com/VIJAYAPANDIANT/AI-ML-Learning)
-*A code-first curriculum spanning 345+ notebooks, 18 real-world production projects, and 9 enterprise capstones.*
+*A code-first curriculum spanning 365+ notebooks, 18 real-world production projects, and 10 enterprise capstones.*
 
-| 📓 345+ Notebooks | 🚀 18 Industry Projects | 🏆 9 Capstone Architectures | 🧠 10 Modules | ⚡ 100% Code-First |
+| 📓 365+ Notebooks | 🚀 18 Industry Projects | 🏆 10 Capstone Architectures | 🧠 11 Modules | ⚡ 100% Code-First |
 | :---: | :---: | :---: | :---: | :---: |
 | Executable Jupyter Notebooks | End-to-End Enterprise Apps | Multi-Concept Capstones | Python to Agentic RAG | Tested, Production-Ready |
 
@@ -37,6 +37,7 @@ AI-ML-Learning/
 ├── 📊 Pandas (27 Notebooks)              ── Wrangling, Time-Series, Memory Optimization
 ├── 📈 Matplotlib (24 Notebooks)          ── Statistical Figures, 3D Plots, Dashboarding
 ├── 📊 Seaborn (26 Notebooks)             ── Distributions, Categorical, Matrix Heatmaps
+├── 🔍 EDA (20 Notebooks)                 ── Profiling, Cleaning, Hypothesis Testing, WoE/IV
 ├── ⚙️ Scikit-Learn (35 Notebooks)        ── Regression, Classifiers, Clustering, Pipelines
 ├── 🧠 Deep Learning (52 Notebooks)       ── PyTorch, TensorFlow, CNNs, RNNs, Vision
 ├── ⚡ Transformers & GenAI (45 Notebooks) ── BERT, GPT, LoRA, QLoRA, Diffusion Models

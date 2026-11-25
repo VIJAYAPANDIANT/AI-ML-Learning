@@ -13,13 +13,13 @@
 [![LangChain](https://img.shields.io/badge/LangChain-Orchestration-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Production%20Serving-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Notebooks](https://img.shields.io/badge/Curriculum-345%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
+[![Notebooks](https://img.shields.io/badge/Curriculum-365%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
 [![Status](https://img.shields.io/badge/Status-Active_Development-0070F3?style=for-the-badge)](#-roadmap--progress)
 [![License](https://img.shields.io/badge/License-MIT-00DF72?style=for-the-badge)](#-license)
 
 <br/>
 
-| 📓 345+ Notebooks | 🚀 18 Industry Projects | 🏆 9 Flagship Capstones | 🧠 10 Learning Modules | ⚡ 100% Code-First |
+| 📓 365+ Notebooks | 🚀 18 Industry Projects | 🏆 10 Flagship Capstones | 🧠 11 Learning Modules | ⚡ 100% Code-First |
 | :---: | :---: | :---: | :---: | :---: |
 | Executable Jupyter notebooks | Full-stack end-to-end apps | Multi-concept enterprise capstones | Python to GenAI & AI Agents | Tested, PEP-8 production code |
 
@@ -31,6 +31,7 @@
   <a href="./Pandas/"><b>📊 Pandas (27)</b></a> •
   <a href="./Matplotlib/"><b>📈 Matplotlib (24)</b></a> •
   <a href="./Seaborn/"><b>📊 Seaborn (26)</b></a> •
+  <a href="./05_Exploratory_Data_Analysis/"><b>🔍 EDA (20)</b></a> •
   <a href="./Scikit-learn/"><b>⚙️ Scikit-Learn (35)</b></a> •
   <a href="./Deep-Learning/"><b>🧠 Deep Learning (52)</b></a> •
   <a href="./Transformers-and-Generative-AI/"><b>⚡ Transformers & GenAI (45)</b></a> •
@@ -56,11 +57,12 @@
   - [Module 3: 📊 Pandas Data Wrangling & Feature Engineering (27 Notebooks)](#module-3--pandas-data-wrangling--feature-engineering-27-notebooks)
   - [Module 4: 📈 Matplotlib for Data Visualization (24 Notebooks)](#module-4--matplotlib-for-data-visualization-24-notebooks)
   - [Module 5: 📊 Seaborn for Statistical Data Visualization (26 Notebooks)](#module-5--seaborn-for-statistical-data-visualization-26-notebooks)
-  - [Module 6: ⚙️ Scikit-Learn for Machine Learning & Modeling (35 Notebooks)](#module-6--scikit-learn-for-machine-learning--modeling-35-notebooks)
-  - [Module 7: 🧠 Deep Learning, PyTorch & TensorFlow (52 Notebooks)](#module-7--deep-learning-pytorch--tensorflow-52-notebooks)
-  - [Module 8: ⚡ Transformers, LLMs & Generative AI (45 Notebooks)](#module-8--transformers-llms--generative-ai-45-notebooks)
-  - [Module 9: 🤖 RAG & LLM Applications (71 Notebooks)](#module-9--rag--llm-applications-71-notebooks)
-  - [Module 10: 🚀 Real-World AI/ML Portfolio Projects (18 Projects)](#module-10--real-world-aiml-portfolio-projects-18-projects)
+  - [Module 6: 🔍 Exploratory Data Analysis (EDA) (20 Notebooks)](#module-6--exploratory-data-analysis-eda-20-notebooks)
+  - [Module 7: ⚙️ Scikit-Learn for Machine Learning & Modeling (35 Notebooks)](#module-7--scikit-learn-for-machine-learning--modeling-35-notebooks)
+  - [Module 8: 🧠 Deep Learning, PyTorch & TensorFlow (52 Notebooks)](#module-8--deep-learning-pytorch--tensorflow-52-notebooks)
+  - [Module 9: ⚡ Transformers, LLMs & Generative AI (45 Notebooks)](#module-9--transformers-llms--generative-ai-45-notebooks)
+  - [Module 10: 🤖 RAG & LLM Applications (71 Notebooks)](#module-10--rag--llm-applications-71-notebooks)
+  - [Module 11: 🚀 Real-World AI/ML Portfolio Projects (18 Projects)](#module-11--real-world-aiml-portfolio-projects-18-projects)
 - [🏆 Featured Capstone Projects](#-featured-capstone-projects)
   - [1. 🎓 Student Academic Performance & Analytics Engine](#1--student-academic-performance--analytics-engine)
   - [2. 🏠 Vectorized Real Estate Valuation & EDA Pipeline](#2--vectorized-real-estate-valuation--eda-pipeline)
@@ -71,6 +73,7 @@
   - [7. 🌐 Autonomous Multi-Modal Diagnostic & Predictive Intelligence Suite](#7--autonomous-multi-modal-diagnostic--predictive-intelligence-suite)
   - [8. 🏢 Enterprise Knowledge Intelligence & Autonomous Agentic Platform](#8--enterprise-knowledge-intelligence--autonomous-agentic-platform)
   - [9. 🌐 Multi-Agent Enterprise Knowledge Intelligence Platform](#9--multi-agent-enterprise-knowledge-intelligence-platform)
+  - [10. 🏥 Enterprise Customer Churn & Health Risk Diagnostic Suite](#10--enterprise-customer-churn--health-risk-diagnostic-suite)
 - [⚡ Vectorization & Performance Benchmarks](#-vectorization--performance-benchmarks)
 - [🗂️ Repository Architecture](#️-repository-architecture)
 - [💻 Quickstart & Installation](#-quickstart--installation)
@@ -179,12 +182,13 @@ Depending on your personal goals and experience level, choose the study path tha
 <summary><b>🎯 Track A: Data Analyst & BI Specialist Track</b></summary>
 <br/>
 
-Focuses on exploratory data manipulation, statistical visualization, and executive reporting:
+Focuses on exploratory data manipulation, statistical visualization, hypothesis testing, and executive reporting:
 1. **Python Essentials**: `01_python_introduction` → `11_dictionaries` → `16_file_handling` → `21_python_datetime`
 2. **NumPy Fundamentals**: `01_numpy_introduction` → `05_numpy_slicing` → `09_numpy_aggregate_functions` → `10_numpy_filtering`
 3. **Pandas Mastery**: `01_pandas_introduction` through `25_pandas_optimization`
 4. **Data Visualization**: Matplotlib (`01` to `24`) & Seaborn (`01` to `26`)
-5. **Capstones**: [Global E-Commerce Analytics](./Pandas/27_pandas_mini_project.ipynb) & [Health & Economic Dashboard](./Matplotlib/24_matplotlib_mini_project.ipynb)
+5. **Exploratory Data Analysis**: [`05_Exploratory_Data_Analysis/`](./05_Exploratory_Data_Analysis/) (`01` to `20`)
+6. **Capstones**: [Global E-Commerce Analytics](./Pandas/27_pandas_mini_project.ipynb), [Health & Economic Dashboard](./Matplotlib/24_matplotlib_mini_project.ipynb) & [Customer Health Risk Diagnostic Suite](./05_Exploratory_Data_Analysis/20_eda_mini_project.ipynb)
 
 </details>
 
@@ -192,12 +196,13 @@ Focuses on exploratory data manipulation, statistical visualization, and executi
 <summary><b>⚡ Track B: Classical Machine Learning Engineer Track</b></summary>
 <br/>
 
-Focuses on mathematical rigor, feature preprocessing, ensemble algorithms, and model persistence:
+Focuses on mathematical rigor, data cleaning, feature preprocessing, ensemble algorithms, and model persistence:
 1. **Linear Algebra & Vectorization**: NumPy arrays, matrix math (`@`), broadcasting, downcasting
-2. **Scikit-Learn Workflows**: Preprocessing (`06_data_preprocessing` to `09_feature_scaling`)
-3. **Supervised Algorithms**: Linear/Logistic Regression, Random Forest, SVM, Gradient Boosting (`11` to `20`)
-4. **Leakage-Free Pipelines**: ColumnTransformers, Cross-Validation & Hyperparameter Tuning (`29` to `33`)
-5. **Capstone**: [Enterprise Churn & Risk Predictive Pipeline](./Scikit-learn/35_scikit_learn_mini_project.ipynb)
+2. **Exploratory Profiling & Diagnostics**: Data Profiling, Missingness Diagnostics, VIF Collinearity, WoE/IV ([`05_Exploratory_Data_Analysis/`](./05_Exploratory_Data_Analysis/))
+3. **Scikit-Learn Workflows**: Preprocessing (`06_data_preprocessing` to `09_feature_scaling`)
+4. **Supervised Algorithms**: Linear/Logistic Regression, Random Forest, SVM, Gradient Boosting (`11` to `20`)
+5. **Leakage-Free Pipelines**: ColumnTransformers, Cross-Validation & Hyperparameter Tuning (`29` to `33`)
+6. **Capstone**: [Enterprise Churn & Risk Predictive Pipeline](./Scikit-learn/35_scikit_learn_mini_project.ipynb)
 
 </details>
 
@@ -448,7 +453,43 @@ A production-grade masterclass in statistical visualization, multi-dimensional d
 
 ---
 
-### Module 6: ⚙️ Scikit-Learn for Machine Learning & Modeling (35 Notebooks)
+### Module 6: 🔍 Exploratory Data Analysis (EDA) (20 Notebooks)
+
+> **Location:** [`./05_Exploratory_Data_Analysis/`](./05_Exploratory_Data_Analysis/) | **Module Guide:** [`05_Exploratory_Data_Analysis/README.md`](./05_Exploratory_Data_Analysis/README.md)
+
+A production-grade curriculum in dataset understanding, structural cleaning, automated profiling, missingness diagnostics, statistical hypothesis testing, correlation screening, outlier detection, and executive reporting.
+
+<details open>
+<summary><b>Click to expand/collapse all 20 Exploratory Data Analysis (EDA) Notebooks</b></summary>
+
+| # | Notebook | Core Topics & Capabilities Covered | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_eda_introduction.ipynb`](./05_Exploratory_Data_Analysis/01_eda_introduction.ipynb) | EDA philosophy, John Tukey paradigm, CRISP-DM lifecycle, Exploratory vs Confirmatory analysis | Completed ✅ |
+| 02 | [`02_dataset_understanding.ipynb`](./05_Exploratory_Data_Analysis/02_dataset_understanding.ipynb) | Shape, column metadata, attribute scale taxonomy (Nominal/Ordinal/Interval/Ratio), memory downcasting | Completed ✅ |
+| 03 | [`03_data_profiling.ipynb`](./05_Exploratory_Data_Analysis/03_data_profiling.ipynb) | Automated data profiler engine, cardinalities, uniqueness ratio, data dictionary construction | Completed ✅ |
+| 04 | [`04_data_cleaning.ipynb`](./05_Exploratory_Data_Analysis/04_data_cleaning.ipynb) | String sanitization, mixed datetime parsing, currency regex stripping, domain boundary checks | Completed ✅ |
+| 05 | [`05_missing_value_analysis.ipynb`](./05_Exploratory_Data_Analysis/05_missing_value_analysis.ipynb) | Rubin's missingness taxonomy (MCAR, MAR, MNAR), missingness indicators, Median vs KNN Imputer | Completed ✅ |
+| 06 | [`06_duplicate_analysis.ipynb`](./05_Exploratory_Data_Analysis/06_duplicate_analysis.ipynb) | Exact vs business subset duplicates, variance deflation, chronological deduplication | Completed ✅ |
+| 07 | [`07_univariate_analysis.ipynb`](./05_Exploratory_Data_Analysis/07_univariate_analysis.ipynb) | Continuous moments (Fisher Skewness, Excess Kurtosis), Pareto analysis for categorical features | Completed ✅ |
+| 08 | [`08_bivariate_analysis.ipynb`](./05_Exploratory_Data_Analysis/08_bivariate_analysis.ipynb) | Continuous-continuous regression slopes, GroupBy aggregations, categorical cross-tabulations | Completed ✅ |
+| 09 | [`09_multivariate_analysis.ipynb`](./05_Exploratory_Data_Analysis/09_multivariate_analysis.ipynb) | Simultaneous multi-feature interactions, correlation matrices, Principal Component Analysis (PCA) | Completed ✅ |
+| 10 | [`10_descriptive_statistics.ipynb`](./05_Exploratory_Data_Analysis/10_descriptive_statistics.ipynb) | Parametric vs robust estimators, Trimmed Mean, Interquartile Range (IQR), Median Absolute Deviation (MAD) | Completed ✅ |
+| 11 | [`11_distribution_analysis.ipynb`](./05_Exploratory_Data_Analysis/11_distribution_analysis.ipynb) | Theoretical vs empirical distributions, Q-Q plots, Shapiro-Wilk, Kolmogorov-Smirnov, D'Agostino tests | Completed ✅ |
+| 12 | [`12_correlation_analysis.ipynb`](./05_Exploratory_Data_Analysis/12_correlation_analysis.ipynb) | Pearson $r$, Spearman $\rho$, Kendall $\tau$, multicollinearity screening with Variance Inflation Factor (VIF) | Completed ✅ |
+| 13 | [`13_statistical_hypothesis_testing.ipynb`](./05_Exploratory_Data_Analysis/13_statistical_hypothesis_testing.ipynb) | Welch's two-sample t-test, Mann-Whitney U rank-sum test, One-Way ANOVA, Pearson's Chi-Square | Completed ✅ |
+| 14 | [`14_outlier_detection.ipynb`](./05_Exploratory_Data_Analysis/14_outlier_detection.ipynb) | Tukey's IQR fences, Modified Z-score, Scikit-Learn Isolation Forest, Local Outlier Factor (LOF) | Completed ✅ |
+| 15 | [`15_feature_profiling.ipynb`](./05_Exploratory_Data_Analysis/15_feature_profiling.ipynb) | Target separation, quantile binning, Weight of Evidence (WoE) and Information Value (IV) ranking | Completed ✅ |
+| 16 | [`16_feature_relationship_analysis.ipynb`](./05_Exploratory_Data_Analysis/16_feature_relationship_analysis.ipynb) | Non-linear dependencies via Mutual Information $I(X; Y)$, interaction synergies, Simpson's Paradox | Completed ✅ |
+| 17 | [`17_eda_visualization.ipynb`](./05_Exploratory_Data_Analysis/17_eda_visualization.ipynb) | Multi-panel distribution grids, masked correlation heatmaps, categorical facet grids | Completed ✅ |
+| 18 | [`18_eda_report_generation.ipynb`](./05_Exploratory_Data_Analysis/18_eda_report_generation.ipynb) | Automated data quality scorecard, findings synthesis, risk matrices, and modeling readiness criteria | Completed ✅ |
+| 19 | [`19_eda_practice.ipynb`](./05_Exploratory_Data_Analysis/19_eda_practice.ipynb) | **Comprehensive Practice Lab:** 10 multi-domain real-world dirty data problem sets | Completed ✅ |
+| 20 | [`20_eda_mini_project.ipynb`](./05_Exploratory_Data_Analysis/20_eda_mini_project.ipynb) | **Capstone:** Enterprise Customer Churn & Health Risk Diagnostic Intelligence Suite | Completed ✅ |
+
+</details>
+
+---
+
+### Module 7: ⚙️ Scikit-Learn for Machine Learning & Modeling (35 Notebooks)
 
 > **Location:** [`./Scikit-learn/`](./Scikit-learn/) | **Module Guide:** [`Scikit-learn/README.md`](./Scikit-learn/README.md)
 
@@ -499,7 +540,7 @@ A production-grade masterclass in classical machine learning, data preprocessing
 
 ---
 
-### Module 7: 🧠 Deep Learning, PyTorch & TensorFlow (52 Notebooks)
+### Module 8: 🧠 Deep Learning, PyTorch & TensorFlow (52 Notebooks)
 
 > **Location:** [`./Deep-Learning/`](./Deep-Learning/) | **Module Guide:** [`Deep-Learning/README.md`](./Deep-Learning/README.md) • **TensorFlow Guide:** [`Deep-Learning/TensorFlow/README.md`](./Deep-Learning/TensorFlow/README.md) • **PyTorch Guide:** [`Deep-Learning/PyTorch/README.md`](./Deep-Learning/PyTorch/README.md)
 
@@ -584,7 +625,7 @@ A comprehensive masterclass in modern deep learning covering mathematical neuron
 
 ---
 
-### Module 8: ⚡ Transformers, LLMs & Generative AI (45 Notebooks)
+### Module 9: ⚡ Transformers, LLMs & Generative AI (45 Notebooks)
 
 > **Location:** [`./Transformers-and-Generative-AI/`](./Transformers-and-Generative-AI/) | **Module Guide:** [`Transformers-and-Generative-AI/README.md`](./Transformers-and-Generative-AI/README.md)
 
@@ -661,7 +702,7 @@ A production-grade masterclass in modern generative AI spanning attention mathem
 </details>
 
 <details>
-<summary><b>Module 9: 🤖 RAG & LLM Applications (71 Notebooks)</b></summary>
+<summary><b>Module 10: 🤖 RAG & LLM Applications (71 Notebooks)</b></summary>
 <br/>
 
 > **Core Focus:** Building production-grade Generative AI applications using RAG, vector databases, LangChain, LlamaIndex, autonomous AI agents, evaluation frameworks, and safety guardrails.
@@ -773,7 +814,7 @@ A production-grade masterclass in modern generative AI spanning attention mathem
 </details>
 
 <details>
-<summary><b>Module 10: 🚀 Real-World AI/ML Portfolio Projects (18 Projects)</b></summary>
+<summary><b>Module 11: 🚀 Real-World AI/ML Portfolio Projects (18 Projects)</b></summary>
 <br/>
 
 > **Core Focus:** End-to-end, production-ready portfolio applications spanning Machine Learning, Deep Learning, Generative AI, RAG, and Real-World IoT Telemetry.
@@ -927,6 +968,12 @@ Each module culminates in an industry-style capstone project that synthesizes al
 - **Key Concepts:** Complete end-to-end production RAG application, multi-agent supervisory routing, hybrid retrieval (dense HNSW embeddings + sparse BM25), reciprocal rank fusion (RRF), cross-encoder neural re-ranking, real-time safety guardrails (prompt injection & PII redaction), human-in-the-loop approval mechanisms, and distributed OpenTelemetry execution tracing.
 - **Problem Solved:** Deploys an enterprise-grade, multi-agent conversational intelligence engine that ingests heterogeneous corporate documents (PDF, Markdown, HTML), resolves domain-specific inquiries with exact page citations, enforces safety compliance, and eliminates LLM hallucinations with audited faithfulness metrics.
 
+### 10. 🏥 Enterprise Customer Churn & Health Risk Diagnostic Suite
+- **Notebook:** [`05_Exploratory_Data_Analysis/20_eda_mini_project.ipynb`](./05_Exploratory_Data_Analysis/20_eda_mini_project.ipynb)
+- **Primary Stack:** Pandas 2.0+, NumPy, SciPy (Stats), Scikit-Learn, Statsmodels, Seaborn
+- **Key Concepts:** Deep memory downcasting (80.5% reduction), missingness indicators & KNN imputation, distribution moments, VIF multicollinearity screening, Welch's t-test, Chi-Square independence, dual-detector outlier consensus (IQR + Isolation Forest), Weight of Evidence (WoE), and Information Value (IV) ranking.
+- **Problem Solved:** Delivers an end-to-end exploratory diagnostic suite assessing customer attrition risk across 5,000 enterprise accounts, generating an executive data health scorecard and prescribing modeling remediation actions.
+
 ---
 
 ## ⚡ Vectorization & Performance Benchmarks
@@ -990,6 +1037,15 @@ AI-ML-Learning/
 │   ├── 25_seaborn_practice.ipynb       # 10 Real-world statistical EDA challenges
 │   ├── 26_seaborn_mini_project.ipynb   # Capstone: Credit Risk & Default Analytics
 │   └── README.md                       # Comprehensive Seaborn module guide
+│
+├── 🔍 05_Exploratory_Data_Analysis/   # [COMPLETED] 20 Notebooks: Profiling, Cleaning, Tests & WoE
+│   ├── 01_eda_introduction.ipynb
+│   ├── ...
+│   ├── 12_correlation_analysis.ipynb   # Multicollinearity & Variance Inflation Factor (VIF)
+│   ├── 15_feature_profiling.ipynb      # Weight of Evidence (WoE) & Information Value (IV)
+│   ├── 19_eda_practice.ipynb           # 10 Multi-domain dirty data challenge sets
+│   ├── 20_eda_mini_project.ipynb       # Capstone: Customer Churn & Health Risk Diagnostic Suite
+│   └── README.md                       # Comprehensive EDA module guide
 │
 ├── ⚙️ Scikit-learn/                     # [COMPLETED] 35 Notebooks: Classical ML, Preprocessing & Pipelines
 │   ├── 01_scikit_learn_introduction.ipynb
@@ -1198,7 +1254,7 @@ Throughout all 345 notebooks, the code strictly adheres to modern industry engin
 | **02** | **NumPy Masterclass** | Ndarrays, Vectorization, Broadcasting, Linear Algebra, Capstone | 20 / 20 | Completed ✅ |
 | **03** | **Pandas Data Wrangling** | Series, DataFrames, Merging, GroupBy, Optimization, Capstone | 27 / 27 | Completed ✅ |
 | **04** | **Data Visualization** | Matplotlib (24) & Seaborn (26): Figure Anatomy, Grids, 3D, Heatmaps, Capstones | 50 / 50 | Completed ✅ |
-| **05** | **Exploratory Data Analysis** | Statistical hypothesis testing, correlation analysis, feature profiling | — | Planned ⏳ |
+| **05** | **Exploratory Data Analysis** | Data profiling, cleaning, hypothesis testing, WoE/IV, Outlier consensus, Capstone | 20 / 20 | Completed ✅ |
 | **06** | **Classical Machine Learning** | Scikit-Learn regression, classification, clustering, cross-validation | 35 / 35 | Completed ✅ |
 | **07** | **Deep Learning Foundations** | PyTorch, Backpropagation, CNNs for Vision, RNNs & Transformers | 52 / 52 | Completed ✅ |
 | **08** | **Generative AI & MLOps** | LLM fine-tuning, RAG pipelines, model deployment & monitoring | 45 / 45 | Completed ✅ |
