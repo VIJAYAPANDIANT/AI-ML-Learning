@@ -8,15 +8,16 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-4C72B0?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Notebooks](https://img.shields.io/badge/Curriculum-98%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
+[![Notebooks](https://img.shields.io/badge/Curriculum-124%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
 [![Status](https://img.shields.io/badge/Status-Active_Development-0070F3?style=for-the-badge)](#-roadmap--progress)
 [![License](https://img.shields.io/badge/License-MIT-00DF72?style=for-the-badge)](#-license)
 
 <br/>
 
 <p align="center">
-  <b>98+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>High-Performance Vectorization</b>
+  <b>124+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>High-Performance Vectorization</b>
 </p>
 
 <p align="center">
@@ -24,6 +25,7 @@
   <a href="./Numpy/"><b>🔢 NumPy (20)</b></a> •
   <a href="./Pandas/"><b>📊 Pandas (27)</b></a> •
   <a href="./Matplotlib/"><b>📈 Matplotlib (24)</b></a> •
+  <a href="./Seaborn/"><b>📊 Seaborn (26)</b></a> •
   <a href="#-master-curriculum-breakdown"><b>📚 Notebook Index</b></a> •
   <a href="#-featured-capstone-projects"><b>🏆 Capstones</b></a>
 </p>
@@ -43,11 +45,13 @@
   - [Module 2: 🔢 NumPy Numerical Computing & Linear Algebra (20 Notebooks)](#module-2--numpy-numerical-computing--linear-algebra-20-notebooks)
   - [Module 3: 📊 Pandas Data Wrangling & Feature Engineering (27 Notebooks)](#module-3--pandas-data-wrangling--feature-engineering-27-notebooks)
   - [Module 4: 📈 Matplotlib for Data Visualization (24 Notebooks)](#module-4--matplotlib-for-data-visualization-24-notebooks)
+  - [Module 5: 📊 Seaborn for Statistical Data Visualization (26 Notebooks)](#module-5--seaborn-for-statistical-data-visualization-26-notebooks)
 - [🏆 Featured Capstone Projects](#-featured-capstone-projects)
   - [1. 🎓 Student Academic Performance & Analytics Engine](#1--student-academic-performance--analytics-engine)
   - [2. 🏠 Vectorized Real Estate Valuation & EDA Pipeline](#2--vectorized-real-estate-valuation--eda-pipeline)
   - [3. 🛒 Global E-Commerce & Retail Intelligence Suite](#3--global-e-commerce--retail-intelligence-suite)
   - [4. 🌍 Global Health & Economic Development Analytics Dashboard](#4--global-health--economic-development-analytics-dashboard)
+  - [5. 🏦 Financial Risk & Customer Credit Default Analytics Suite](#5--financial-risk--customer-credit-default-analytics-suite)
 - [⚡ Vectorization & Performance Benchmarks](#-vectorization--performance-benchmarks)
 - [🗂️ Repository Architecture](#️-repository-architecture)
 - [💻 Quickstart & Installation](#-quickstart--installation)
@@ -108,8 +112,8 @@ flowchart TD
         C["📊 Pandas Data Wrangling & Feature Engineering<br/>(27 Notebooks)"]
     end
 
-    subgraph S4["Phase 4: Visual Analytics"]
-        D["📈 Matplotlib Data Visualization<br/>(24 Notebooks)"]
+    subgraph S4["Phase 4: Statistical & Visual Analytics"]
+        D["📈 Matplotlib (24) & 📊 Seaborn (26)<br/>(50 Completed Notebooks)"]
     end
 
     subgraph S5["Phase 5: Predictive Modeling (Upcoming)"]
@@ -339,6 +343,48 @@ A production-grade masterclass in data visualization, Object-Oriented plotting (
 
 ---
 
+### Module 5: 📊 Seaborn for Statistical Data Visualization (26 Notebooks)
+
+> **Location:** [`./Seaborn/`](./Seaborn/) | **Module Guide:** [`Seaborn/README.md`](./Seaborn/README.md)
+
+A production-grade masterclass in statistical visualization, multi-dimensional distributions, categorical modeling, correlation heatmaps, and exploratory data analysis.
+
+<details open>
+<summary><b>Click to expand/collapse all 26 Seaborn Notebooks</b></summary>
+
+| # | Notebook | Core Topics & Capabilities Covered | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_seaborn_introduction.ipynb`](./Seaborn/01_seaborn_introduction.ipynb) | Why Seaborn for AI/ML, DataFrame integration, Matplotlib comparison, first multi-dimensional scatter | Completed ✅ |
+| 02 | [`02_seaborn_installation_and_setup.ipynb`](./Seaborn/02_seaborn_installation_and_setup.ipynb) | Axes-level vs. Figure-level functions, embedding with `ax=ax`, `FacetGrid` returns, global themes | Completed ✅ |
+| 03 | [`03_seaborn_datasets.ipynb`](./Seaborn/03_seaborn_datasets.ipynb) | Built-in datasets (`tips`, `iris`, `titanic`, `diamonds`, `penguins`), Tidy wide-form to long-form reshaping | Completed ✅ |
+| 04 | [`04_seaborn_relational_plots.ipynb`](./Seaborn/04_seaborn_relational_plots.ipynb) | `sns.relplot()`, `kind='scatter'` vs `kind='line'`, multi-panel faceting with `col`, `row`, `col_wrap` | Completed ✅ |
+| 05 | [`05_seaborn_scatter_plot.ipynb`](./Seaborn/05_seaborn_scatter_plot.ipynb) | `sns.scatterplot()`, multidimensional mapping: `hue`, `size`, `sizes=(min, max)`, `style`, alpha transparency | Completed ✅ |
+| 06 | [`06_seaborn_line_plot.ipynb`](./Seaborn/06_seaborn_line_plot.ipynb) | `sns.lineplot()`, time series, automatic aggregation, 95% bootstrap confidence bands (`errorbar='ci'`), `markers` | Completed ✅ |
+| 07 | [`07_seaborn_categorical_plots.ipynb`](./Seaborn/07_seaborn_categorical_plots.ipynb) | `sns.catplot()`, categorical scatter, distribution and estimate plot families, column faceting | Completed ✅ |
+| 08 | [`08_seaborn_bar_plot.ipynb`](./Seaborn/08_seaborn_bar_plot.ipynb) | `sns.barplot()`, point estimates with confidence intervals, custom aggregators (`estimator=np.median`), `hue` | Completed ✅ |
+| 09 | [`09_seaborn_count_plot.ipynb`](./Seaborn/09_seaborn_count_plot.ipynb) | `sns.countplot()`, frequency counts for discrete categories, ordering categories, horizontal bars | Completed ✅ |
+| 10 | [`10_seaborn_box_plot.ipynb`](./Seaborn/10_seaborn_box_plot.ipynb) | `sns.boxplot()`, statistical quartiles, IQR outlier detection, nested subgroup comparisons with `hue` | Completed ✅ |
+| 11 | [`11_seaborn_violin_plot.ipynb`](./Seaborn/11_seaborn_violin_plot.ipynb) | `sns.violinplot()`, combining box plot with KDE density estimation, `split=True` for binary cohorts, `inner='quartile'` | Completed ✅ |
+| 12 | [`12_seaborn_strip_and_swarm_plot.ipynb`](./Seaborn/12_seaborn_strip_and_swarm_plot.ipynb) | `sns.stripplot()`, jitter, `sns.swarmplot()`, non-overlapping points, hybrid layering over box plots | Completed ✅ |
+| 13 | [`13_seaborn_distribution_plots.ipynb`](./Seaborn/13_seaborn_distribution_plots.ipynb) | `sns.displot()`, univariate & bivariate distributions, toggling `kind='hist'`, `'kde'`, `'ecdf'` with faceting | Completed ✅ |
+| 14 | [`14_seaborn_histogram_and_kde.ipynb`](./Seaborn/14_seaborn_histogram_and_kde.ipynb) | `sns.histplot()`, `kde=True`, `stat='density'`, `multiple='dodge'`, 2D Bivariate density contours (`sns.kdeplot`) | Completed ✅ |
+| 15 | [`15_seaborn_ecdf_plot.ipynb`](./Seaborn/15_seaborn_ecdf_plot.ipynb) | `sns.ecdfplot()`, Empirical Cumulative Distribution Functions, percentile cutoffs, comparing cohort CDFs | Completed ✅ |
+| 16 | [`16_seaborn_regression_plots.ipynb`](./Seaborn/16_seaborn_regression_plots.ipynb) | `sns.regplot()` vs `sns.lmplot()`, linear & 2nd-order polynomial fits, logistic regression (`logistic=True`) | Completed ✅ |
+| 17 | [`17_seaborn_heatmap.ipynb`](./Seaborn/17_seaborn_heatmap.ipynb) | `sns.heatmap()`, Pearson correlation matrices, `annot=True`, `mask` upper triangle with `np.triu`, `clustermap` | Completed ✅ |
+| 18 | [`18_seaborn_pairplot.ipynb`](./Seaborn/18_seaborn_pairplot.ipynb) | `sns.pairplot()`, pairwise relationship scatter matrices across all numerical features, `corner=True`, `hue` | Completed ✅ |
+| 19 | [`19_seaborn_jointplot.ipynb`](./Seaborn/19_seaborn_jointplot.ipynb) | `sns.jointplot()`, bivariate relationship with marginal univariate distributions, `kind='scatter'`, `'hex'`, `'reg'` | Completed ✅ |
+| 20 | [`20_seaborn_facetgrid.ipynb`](./Seaborn/20_seaborn_facetgrid.ipynb) | `sns.FacetGrid`, mapping arbitrary functions with `.map()` and `.map_dataframe()`, custom titles & labels | Completed ✅ |
+| 21 | [`21_seaborn_pairgrid.ipynb`](./Seaborn/21_seaborn_pairgrid.ipynb) | `sns.PairGrid`, granular mapping: `.map_diag()` for KDE, `.map_upper()` for scatter, `.map_lower()` for contours | Completed ✅ |
+| 22 | [`22_seaborn_themes_and_styles.ipynb`](./Seaborn/22_seaborn_themes_and_styles.ipynb) | 5 Styles (`darkgrid`, `whitegrid`, `ticks`), scaling with `set_context()`, `sns.despine()` border removal | Completed ✅ |
+| 23 | [`23_seaborn_color_palettes.ipynb`](./Seaborn/23_seaborn_color_palettes.ipynb) | Qualitative (`deep`, `Set2`), Sequential (`Blues`, `rocket`), Diverging (`vlag`, `coolwarm`), `palplot` | Completed ✅ |
+| 24 | [`24_seaborn_figure_customization.ipynb`](./Seaborn/24_seaborn_figure_customization.ipynb) | Interfacing Seaborn with Matplotlib `Axes` & `Figure`, custom titles, legends, and export (`dpi=300`) | Completed ✅ |
+| 25 | [`25_seaborn_practice.ipynb`](./Seaborn/25_seaborn_practice.ipynb) | 10 Comprehensive multi-domain statistical EDA and Machine Learning visualization problem sets | Completed ✅ |
+| 26 | [`26_seaborn_mini_project.ipynb`](./Seaborn/26_seaborn_mini_project.ipynb) | **Capstone:** Financial Risk & Credit Default Analytics Suite (Exploratory Data Analysis & Modeling) | Completed ✅ |
+
+</details>
+
+---
+
 ## 🏆 Featured Capstone Projects
 
 Each module culminates in an industry-style capstone project that synthesizes all preceding concepts into a single, cohesive, production-grade application:
@@ -360,6 +406,13 @@ Each module culminates in an industry-style capstone project that synthesizes al
 │ • Statistical Uncertainty: Continental Error Bars & Infant Mortality Boxplots                   │
 │ • 20-Year Global Improvement Trends with Shaded 95% Confidence Intervals (fill_between)         │
 │ • Minimalist Tufte Spines & Automated Publication-Quality High-Resolution Export (300 DPI)      │
+├─────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ 🏦 Financial Risk & Customer Credit Default Analytics Suite [Seaborn Capstone]                  │
+│ • Multi-Feature Risk Factor Profiling: FICO Score, DTI, Principal Loan Amount, and Income       │
+│ • Empirical Default Rate Barplots with 95% Bootstrap Confidence Bounds                          │
+│ • Masked Lower-Triangle Correlation Heatmap with Diverging Colormap (vlag)                      │
+│ • Logistic Regression Default Probability Modeling as a Function of Borrower Credit Score       │
+│ • Automated 300 DPI Publication Export & Minimalist Theme Despining                             │
 └─────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -386,6 +439,12 @@ Each module culminates in an industry-style capstone project that synthesizes al
 - **Primary Stack:** Matplotlib 3.7+, `GridSpec`, NumPy, Pandas
 - **Key Concepts:** Multidimensional bubble charts with logarithmic scaling, continent error-bar benchmarks, regional infant mortality boxplots, 20-year trend forecasts with 95% confidence interval shading, minimal spine styling, and publication export (`dpi=300`).
 - **Problem Solved:** Synthesizes multi-indicator socioeconomic indicators across 60 global nations into an executive visual dashboard tracking health outcomes, healthcare spending efficiency, and wealth disparities.
+
+### 5. 🏦 Financial Risk & Customer Credit Default Analytics Suite
+- **Notebook:** [`Seaborn/26_seaborn_mini_project.ipynb`](./Seaborn/26_seaborn_mini_project.ipynb)
+- **Primary Stack:** Seaborn 0.12+, Matplotlib, Pandas, NumPy
+- **Key Concepts:** Multi-feature borrower risk profiling, empirical default rate bar charts with 95% bootstrap confidence bounds, FICO score distributions across loan purposes, masked correlation heatmap, and logistic regression default probability curves.
+- **Problem Solved:** Performs an exhaustive statistical Exploratory Data Analysis (EDA) on loan portfolio records to diagnose key credit default drivers and model default probabilities against FICO scores.
 
 ---
 
@@ -442,7 +501,15 @@ AI-ML-Learning/
 │   ├── 24_matplotlib_mini_project.ipynb # Capstone: Global Economic & Health Analytics
 │   └── README.md                       # Comprehensive Matplotlib module guide
 │
-├── 📊 Seaborn/                         # [UPCOMING] Statistical Data Visualization
+├── 📊 Seaborn/                         # [COMPLETED] 26 Notebooks: Statistical Data Visualization
+│   ├── 01_seaborn_introduction.ipynb
+│   ├── ...
+│   ├── 17_seaborn_heatmap.ipynb        # Masked correlation matrices & clustermap
+│   ├── 21_seaborn_pairgrid.ipynb       # Advanced PairGrid mapping & multi-plots
+│   ├── 25_seaborn_practice.ipynb       # 10 Real-world statistical EDA challenges
+│   ├── 26_seaborn_mini_project.ipynb   # Capstone: Credit Risk & Default Analytics
+│   └── README.md                       # Comprehensive Seaborn module guide
+│
 ├── ⚙️ Machine-Learning/                # [UPCOMING] Scikit-Learn Supervised & Unsupervised
 ├── 🧠 Deep-Learning/                   # [UPCOMING] PyTorch, Neural Networks, Transformers
 │
@@ -555,7 +622,7 @@ jupyter notebook
 
 ## 📐 Best Practices & Coding Philosophy
 
-Throughout all 98 notebooks, the code strictly adheres to modern industry engineering standards:
+Throughout all 124 notebooks, the code strictly adheres to modern industry engineering standards:
 
 1. **PEP 8 Compliance**: Consistent `snake_case` variable naming, uppercase `UPPER_CASE` constants, and clear function docstrings.
 2. **Vectorize First, Loop Never**: Eliminating manual element-by-element iterations whenever a library function can compute in compiled C.
@@ -572,11 +639,7 @@ Throughout all 98 notebooks, the code strictly adheres to modern industry engine
 | **01** | **Python Programming** | Syntax, Data Structures, OOP, Advanced Features, Capstone | 27 / 27 | Completed ✅ |
 | **02** | **NumPy Masterclass** | Ndarrays, Vectorization, Broadcasting, Linear Algebra, Capstone | 20 / 20 | Completed ✅ |
 | **03** | **Pandas Data Wrangling** | Series, DataFrames, Merging, GroupBy, Optimization, Capstone | 27 / 27 | Completed ✅ |
-| **04** | **Data Visualization** | Matplotlib Figure Anatomy, Multi-Panel GridSpec, Statistical & 3D Plots, Capstone | 24 / 24 | Completed ✅ |
-| **05** | **Exploratory Data Analysis** | Statistical hypothesis testing, correlation analysis, feature profiling | — | Planned ⏳ |
-| **06** | **Classical Machine Learning** | Scikit-Learn regression, classification, clustering, cross-validation | — | Planned ⏳ |
-| **07** | **Deep Learning Foundations** | PyTorch, Backpropagation, CNNs for Vision, RNNs & Transformers | — | Planned ⏳ |
-| **08** | **Generative AI & MLOps** | LLM fine-tuning, RAG pipelines, model deployment & monitoring | — | Planned ⏳ |
+| **04** | **Data Visualization** | Matplotlib (24) & Seaborn (26): Figure Anatomy, Grids, 3D, Heatmaps, Capstones | 50 / 50 | Completed ✅ |
 | **05** | **Exploratory Data Analysis** | Statistical hypothesis testing, correlation analysis, feature profiling | — | Planned ⏳ |
 | **06** | **Classical Machine Learning** | Scikit-Learn regression, classification, clustering, cross-validation | — | Planned ⏳ |
 | **07** | **Deep Learning Foundations** | PyTorch, Backpropagation, CNNs for Vision, RNNs & Transformers | — | Planned ⏳ |
