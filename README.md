@@ -12,14 +12,14 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12%2B-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
-[![Notebooks](https://img.shields.io/badge/Curriculum-211%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
+[![Notebooks](https://img.shields.io/badge/Curriculum-256%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
 [![Status](https://img.shields.io/badge/Status-Active_Development-0070F3?style=for-the-badge)](#-roadmap--progress)
 [![License](https://img.shields.io/badge/License-MIT-00DF72?style=for-the-badge)](#-license)
 
 <br/>
 
 <p align="center">
-  <b>211+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>Deep Learning & Neural Architectures</b>
+  <b>256+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>Transformers, LLMs & Generative AI</b>
 </p>
 
 <p align="center">
@@ -30,6 +30,7 @@
   <a href="./Seaborn/"><b>📊 Seaborn (26)</b></a> •
   <a href="./Scikit-learn/"><b>⚙️ Scikit-Learn (35)</b></a> •
   <a href="./Deep-Learning/"><b>🧠 Deep Learning (52)</b></a> •
+  <a href="./Transformers-and-Generative-AI/"><b>⚡ Transformers & GenAI (45)</b></a> •
   <a href="#-master-curriculum-breakdown"><b>📚 Notebook Index</b></a> •
   <a href="#-featured-capstone-projects"><b>🏆 Capstones</b></a>
 </p>
@@ -52,6 +53,7 @@
   - [Module 5: 📊 Seaborn for Statistical Data Visualization (26 Notebooks)](#module-5--seaborn-for-statistical-data-visualization-26-notebooks)
   - [Module 6: ⚙️ Scikit-Learn for Machine Learning & Modeling (35 Notebooks)](#module-6--scikit-learn-for-machine-learning--modeling-35-notebooks)
   - [Module 7: 🧠 Deep Learning, PyTorch & TensorFlow (52 Notebooks)](#module-7--deep-learning-pytorch--tensorflow-52-notebooks)
+  - [Module 8: ⚡ Transformers, LLMs & Generative AI (45 Notebooks)](#module-8--transformers-llms--generative-ai-45-notebooks)
 - [🏆 Featured Capstone Projects](#-featured-capstone-projects)
   - [1. 🎓 Student Academic Performance & Analytics Engine](#1--student-academic-performance--analytics-engine)
   - [2. 🏠 Vectorized Real Estate Valuation & EDA Pipeline](#2--vectorized-real-estate-valuation--eda-pipeline)
@@ -60,6 +62,7 @@
   - [5. 🏦 Financial Risk & Customer Credit Default Analytics Suite](#5--financial-risk--customer-credit-default-analytics-suite)
   - [6. 🎯 Enterprise Customer Churn & Lifetime Risk Predictive Pipeline](#6--enterprise-customer-churn--lifetime-risk-predictive-pipeline)
   - [7. 🌐 Autonomous Multi-Modal Diagnostic & Predictive Intelligence Suite](#7--autonomous-multi-modal-diagnostic--predictive-intelligence-suite)
+  - [8. 🏢 Enterprise Knowledge Intelligence & Autonomous Agentic Platform](#8--enterprise-knowledge-intelligence--autonomous-agentic-platform)
 - [⚡ Vectorization & Performance Benchmarks](#-vectorization--performance-benchmarks)
 - [🗂️ Repository Architecture](#️-repository-architecture)
 - [💻 Quickstart & Installation](#-quickstart--installation)
@@ -128,8 +131,12 @@ flowchart TD
         E["⚙️ Classical Machine Learning<br/>(Scikit-Learn: 35 Completed Notebooks)"]
     end
 
-    subgraph S6["Phase 6: Deep Learning & Modern AI"]
+    subgraph S6["Phase 6: Deep Learning Foundations"]
         F["🧠 Deep Learning & Neural Architectures<br/>(PyTorch & TensorFlow: 52 Completed Notebooks)"]
+    end
+
+    subgraph S7["Phase 7: Generative AI & Frontier Models"]
+        G["⚡ Transformers, LLMs & Generative AI<br/>(RAG, LoRA, Agents: 45 Completed Notebooks)"]
     end
 
     A --> B
@@ -137,10 +144,11 @@ flowchart TD
     C --> D
     D --> E
     E --> F
+    F --> G
 
     classDef completed fill:#10B981,stroke:#059669,stroke-width:2px,color:#ffffff;
     classDef upcoming fill:#3B82F6,stroke:#2563EB,stroke-width:2px,color:#ffffff;
-    class A,B,C,D,E,F completed;
+    class A,B,C,D,E,F,G completed;
 ```
 
 ---
@@ -528,6 +536,84 @@ A comprehensive masterclass in modern deep learning covering mathematical neuron
 
 ---
 
+### Module 8: ⚡ Transformers, LLMs & Generative AI (45 Notebooks)
+
+> **Location:** [`./Transformers-and-Generative-AI/`](./Transformers-and-Generative-AI/) | **Module Guide:** [`Transformers-and-Generative-AI/README.md`](./Transformers-and-Generative-AI/README.md)
+
+A production-grade masterclass in modern generative AI spanning attention mathematics, transformer blocks, foundation LLMs, parameter-efficient fine-tuning (LoRA), retrieval-augmented generation (RAG), autonomous AI agents, and enterprise applications.
+
+<details open>
+<summary><b>Click to expand/collapse all 45 Transformers & Generative AI Notebooks</b></summary>
+
+#### Phase 1: NLP & Transformer Fundamentals (10 Notebooks)
+| # | Notebook | Core Theoretical Concept | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_nlp_fundamentals.ipynb`](./Transformers-and-Generative-AI/01_nlp_fundamentals.ipynb) | Linguistic hierarchy, morphology, syntax & token frequencies | Completed ✅ |
+| 02 | [`02_text_preprocessing.ipynb`](./Transformers-and-Generative-AI/02_text_preprocessing.ipynb) | Cleaning pipelines, regex HTML/URL sanitization & normalization | Completed ✅ |
+| 03 | [`03_tokenization.ipynb`](./Transformers-and-Generative-AI/03_tokenization.ipynb) | Subword tokenization: Byte-Pair Encoding (BPE), WordPiece & SentencePiece | Completed ✅ |
+| 04 | [`04_word_embeddings.ipynb`](./Transformers-and-Generative-AI/04_word_embeddings.ipynb) | Distributed continuous vector spaces: Word2Vec, GloVe & vector geometry | Completed ✅ |
+| 05 | [`05_attention_mechanism.ipynb`](./Transformers-and-Generative-AI/05_attention_mechanism.ipynb) | Seq2Seq RNN bottleneck & Bahdanau additive attention | Completed ✅ |
+| 06 | [`06_self_attention.ipynb`](./Transformers-and-Generative-AI/06_self_attention.ipynb) | Scaled Dot-Product Self-Attention & Multi-Head Attention projections | Completed ✅ |
+| 07 | [`07_transformer_architecture.ipynb`](./Transformers-and-Generative-AI/07_transformer_architecture.ipynb) | Complete "Attention Is All You Need" architecture block with LayerNorm | Completed ✅ |
+| 08 | [`08_encoder_and_decoder.ipynb`](./Transformers-and-Generative-AI/08_encoder_and_decoder.ipynb) | Encoder-Only (BERT) vs Decoder-Only (GPT) vs Encoder-Decoder (T5) | Completed ✅ |
+| 09 | [`09_positional_encoding.ipynb`](./Transformers-and-Generative-AI/09_positional_encoding.ipynb) | Sinusoidal frequency encodings, learnable embeddings & RoPE | Completed ✅ |
+| 10 | [`10_bert_and_gpt_architecture.ipynb`](./Transformers-and-Generative-AI/10_bert_and_gpt_architecture.ipynb) | Masked Language Modeling (MLM) vs Causal Next-Token Prediction (CLM) | Completed ✅ |
+
+#### Phase 2: LLM Fundamentals (8 Notebooks)
+| # | Notebook | Core LLM Mechanics | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_llm_introduction.ipynb`](./Transformers-and-Generative-AI/LLM-Fundamentals/01_llm_introduction.ipynb) | Parameter scaling laws (7B-70B+) & emergent reasoning capabilities | Completed ✅ |
+| 02 | [`02_llm_architectures.ipynb`](./Transformers-and-Generative-AI/LLM-Fundamentals/02_llm_architectures.ipynb) | Modern innovations: RMSNorm, SwiGLU, RoPE, Grouped-Query Attention | Completed ✅ |
+| 03 | [`03_pretraining_and_finetuning.ipynb`](./Transformers-and-Generative-AI/LLM-Fundamentals/03_pretraining_and_finetuning.ipynb) | Pre-training on trillions of tokens, SFT instruction data & DPO alignment | Completed ✅ |
+| 04 | [`04_prompt_engineering.ipynb`](./Transformers-and-Generative-AI/LLM-Fundamentals/04_prompt_engineering.ipynb) | Zero-shot, few-shot, Chain-of-Thought (CoT) & ReAct reasoning prompts | Completed ✅ |
+| 05 | [`05_context_windows_and_tokens.ipynb`](./Transformers-and-Generative-AI/LLM-Fundamentals/05_context_windows_and_tokens.ipynb) | Context length scaling, KV cache RAM memory footprint & FlashAttention | Completed ✅ |
+| 06 | [`06_temperature_and_sampling.ipynb`](./Transformers-and-Generative-AI/LLM-Fundamentals/06_temperature_and_sampling.ipynb) | Softmax temperature, Top-K, Top-P (Nucleus) & greedy decoding | Completed ✅ |
+| 07 | [`07_huggingface_transformers.ipynb`](./Transformers-and-Generative-AI/LLM-Fundamentals/07_huggingface_transformers.ipynb) | Hugging Face Transformers library: AutoTokenizer, AutoModel & pipelines | Completed ✅ |
+| 08 | [`08_using_pretrained_models.ipynb`](./Transformers-and-Generative-AI/LLM-Fundamentals/08_using_pretrained_models.ipynb) | Model execution, device_map='auto' & 4-bit BitsAndBytes quantization | Completed ✅ |
+
+#### Phase 3: Generative AI Paradigms (8 Notebooks)
+| # | Notebook | Generative Architecture | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_generative_ai_introduction.ipynb`](./Transformers-and-Generative-AI/Generative-AI/01_generative_ai_introduction.ipynb) | Discriminative P(y\|x) vs Generative P(x) joint density modeling | Completed ✅ |
+| 02 | [`02_generative_ai_types.ipynb`](./Transformers-and-Generative-AI/Generative-AI/02_generative_ai_types.ipynb) | Taxonomy: Autoregressive, Diffusion, GANs, VAEs, and Energy-based models | Completed ✅ |
+| 03 | [`03_text_generation.ipynb`](./Transformers-and-Generative-AI/Generative-AI/03_text_generation.ipynb) | Autoregressive text dynamics, beam search decoding & perplexity | Completed ✅ |
+| 04 | [`04_image_generation.ipynb`](./Transformers-and-Generative-AI/Generative-AI/04_image_generation.ipynb) | Pixel-space vs latent-space neural image synthesis compute trade-offs | Completed ✅ |
+| 05 | [`05_diffusion_models.ipynb`](./Transformers-and-Generative-AI/Generative-AI/05_diffusion_models.ipynb) | Forward Gaussian noise scheduling, reverse U-Net denoising & CFG | Completed ✅ |
+| 06 | [`06_gan_fundamentals.ipynb`](./Transformers-and-Generative-AI/Generative-AI/06_gan_fundamentals.ipynb) | Generator vs Discriminator minimax game & mode collapse prevention | Completed ✅ |
+| 07 | [`07_vae_fundamentals.ipynb`](./Transformers-and-Generative-AI/Generative-AI/07_vae_fundamentals.ipynb) | Variational Autoencoders, ELBO loss & the Reparameterization Trick | Completed ✅ |
+| 08 | [`08_multimodal_ai.ipynb`](./Transformers-and-Generative-AI/Generative-AI/08_multimodal_ai.ipynb) | Vision-Language Models, CLIP contrastive learning & visual projections | Completed ✅ |
+
+#### Phase 4: LLM Application Development & RAG (11 Notebooks)
+| # | Notebook | Enterprise Capability | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_llm_api_integration.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/01_llm_api_integration.ipynb) | REST API client sessions, structured Pydantic schemas & retry backoff | Completed ✅ |
+| 02 | [`02_prompt_templates.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/02_prompt_templates.ipynb) | Reusable PromptTemplate classes with dynamic variable validation | Completed ✅ |
+| 03 | [`03_chains_and_workflows.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/03_chains_and_workflows.ipynb) | Sequential execution chains, branching logic & declarative pipelines | Completed ✅ |
+| 04 | [`04_embeddings_and_vector_search.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/04_embeddings_and_vector_search.ipynb) | Dense vector generation, cosine similarity search & k-NN document ranking | Completed ✅ |
+| 05 | [`05_vector_databases.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/05_vector_databases.ipynb) | ANN indexing: HNSW proximity graphs, IVF-PQ quantization & vector stores | Completed ✅ |
+| 06 | [`06_rag_fundamentals.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/06_rag_fundamentals.ipynb) | Retrieval-Augmented Generation: Document chunking, overlap & naive RAG | Completed ✅ |
+| 07 | [`07_rag_implementation.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/07_rag_implementation.ipynb) | Advanced RAG: Hybrid Search (BM25 + Vector) & Cross-Encoder Reranking | Completed ✅ |
+| 08 | [`08_finetuning_llms.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/08_finetuning_llms.ipynb) | Full parameter fine-tuning vs PEFT memory budgets & VRAM requirements | Completed ✅ |
+| 09 | [`09_lora_and_qlora.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/09_lora_and_qlora.ipynb) | Low-Rank Adaptation (LoRA: Delta W = B*A) & 4-bit QLoRA adapters | Completed ✅ |
+| 10 | [`10_ai_agents.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/10_ai_agents.ipynb) | Autonomous AI agents, function calling, tool execution & ReAct loops | Completed ✅ |
+| 11 | [`11_llm_evaluation_and_guardrails.ipynb`](./Transformers-and-Generative-AI/LLM-Application-Development/11_llm_evaluation_and_guardrails.ipynb) | RAGAS metrics (Faithfulness, Relevancy) & safety guardrail injection shields | Completed ✅ |
+
+#### Phase 5: Real-World Portfolio Projects (8 Notebooks)
+| # | Project | Domain & Architecture | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_ai_chatbot.ipynb`](./Transformers-and-Generative-AI/Projects/01_ai_chatbot.ipynb) | Multi-Turn Conversational Assistant with Sliding Memory Buffer | Completed ✅ |
+| 02 | [`02_document_question_answering.ipynb`](./Transformers-and-Generative-AI/Projects/02_document_question_answering.ipynb) | Multi-Document Question Answering with Exact Source Citations | Completed ✅ |
+| 03 | [`03_rag_pdf_chatbot.ipynb`](./Transformers-and-Generative-AI/Projects/03_rag_pdf_chatbot.ipynb) | Enterprise Document Intelligence RAG Assistant with Vector Search | Completed ✅ |
+| 04 | [`04_ai_resume_analyzer.ipynb`](./Transformers-and-Generative-AI/Projects/04_ai_resume_analyzer.ipynb) | Talent Intelligence: Resume Skill Extraction & Job Match Scoring | Completed ✅ |
+| 05 | [`05_text_summarization.ipynb`](./Transformers-and-Generative-AI/Projects/05_text_summarization.ipynb) | Long-Form Hierarchical Summarization with Map-Reduce Chunking | Completed ✅ |
+| 06 | [`06_semantic_search_engine.ipynb`](./Transformers-and-Generative-AI/Projects/06_semantic_search_engine.ipynb) | Production Two-Stage Semantic Search (Bi-Encoder + Cross-Encoder) | Completed ✅ |
+| 07 | [`07_ai_research_assistant.ipynb`](./Transformers-and-Generative-AI/Projects/07_ai_research_assistant.ipynb) | Autonomous Multi-Tool Research Agent (ReAct Loop + Citations) | Completed ✅ |
+| 08 | [`08_generative_ai_final_project.ipynb`](./Transformers-and-Generative-AI/Projects/08_generative_ai_final_project.ipynb) | **Master Enterprise Capstone:** Autonomous Knowledge Intelligence Platform | Completed ✅ |
+
+</details>
+
+---
+
 ## 🏆 Featured Capstone Projects
 
 Each module culminates in an industry-style capstone project that synthesizes all preceding concepts into a single, cohesive, production-grade application:
@@ -569,6 +655,12 @@ Each module culminates in an industry-style capstone project that synthesizes al
 │ • Shared Representation Backbone with Mish Activation, BatchNorm & Cosine Annealing Schedule    │
 │ • Multi-Modal Perception: Radiographic Vision + Sequential Acoustic Telemetry                 │
 │ • TorchScript Compiled C++ Executable Bundle for High-Throughput Production Edge Deployment   │
+├─────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ 🏢 Enterprise Knowledge Intelligence Platform [Generative AI Capstone]                           │
+│ • Autonomous Multi-Tool Agentic Assistant with ReAct Planning Loop & Pydantic Tool Schemas       │
+│ • Hybrid Retrieval Engine: Fuses Sparse BM25 Keyword Search with Dense HNSW Vector Embeddings   │
+│ • Neural Cross-Encoder Re-Ranking Pipeline with Reciprocal Rank Fusion (RRF) Context Filtering │
+│ • Domain Fine-Tuned LoRA / QLoRA Adapter Integration & RAGAS Faithfulness Hallucination Guard   │
 └─────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -613,6 +705,12 @@ Each module culminates in an industry-style capstone project that synthesizes al
 - **Primary Stack:** PyTorch 2.0+, Autograd, Multi-Task Learning, CosineAnnealingLR, TorchScript
 - **Key Concepts:** Shared representation backbone, multi-task loss joint optimization (Binary Cross-Entropy for anomaly probability + Mean Squared Error for continuous Remaining Useful Life), gradient clipping, and TorchScript (`torch.jit.trace`) compilation for C++ production serving.
 - **Problem Solved:** Synthesizes multi-modal visual and sensory telemetry into an automated industrial intelligence platform capable of predicting impending mechanical failures and estimating component longevity in sub-millisecond latency budgets.
+
+### 8. 🏢 Enterprise Knowledge Intelligence & Autonomous Agentic Platform
+- **Notebook:** [`Transformers-and-Generative-AI/Projects/08_generative_ai_final_project.ipynb`](./Transformers-and-Generative-AI/Projects/08_generative_ai_final_project.ipynb)
+- **Primary Stack:** PyTorch 2.0+, Hugging Face Transformers, LoRA / PEFT, LangChain, Vector Databases, Guardrails
+- **Key Concepts:** Multi-layer security guardrails against prompt injection and PII leakage, Hybrid Search (BM25 + HNSW vector indexing) with Reciprocal Rank Fusion, Cross-Encoder neural re-ranking, LoRA domain instruction tuning, autonomous function calling agents, and RAGAS answer faithfulness auditing.
+- **Problem Solved:** Synthesizes disparate corporate documents, wikis, and technical manuals into a unified, hallucination-resistant enterprise knowledge platform equipped with autonomous tool invocation and audit logging.
 
 ---
 
@@ -694,7 +792,13 @@ AI-ML-Learning/
 │   ├── 🏆 Projects/                    # 5 Portfolio Projects & Multi-Modal Master Capstone
 │   └── README.md                       # Master Deep Learning Module guide
 │
-├── 🤖 Generative-AI/                   # [UPCOMING] Large Language Models, RAG, Diffusion & Agents
+├── ⚡ Transformers-and-Generative-AI/   # [COMPLETED] 45 Notebooks: Transformers, LLMs & Agents
+│   ├── 01_nlp_fundamentals.ipynb ... 10_bert_and_gpt_architecture.ipynb
+│   ├── 🤖 LLM-Fundamentals/            # 8 Notebooks: Scaling laws, RMSNorm, GQA, Quantization
+│   ├── 🎨 Generative-AI/               # 8 Notebooks: Autoregressive, Latent Diffusion, GANs, VAEs, CLIP
+│   ├── ⚙️ LLM-Application-Development/ # 11 Notebooks: REST APIs, Hybrid RAG, LoRA, Agents, Guardrails
+│   ├── 🏆 Projects/                    # 8 Portfolio Projects & Enterprise Master Capstone
+│   └── README.md                       # Master Transformers & GenAI Module guide
 │
 ├── .gitignore                          # Standard Python/Jupyter ignore rules
 ├── requirements.txt                    # Pinned core dependencies
@@ -805,7 +909,7 @@ jupyter notebook
 
 ## 📐 Best Practices & Coding Philosophy
 
-Throughout all 211 notebooks, the code strictly adheres to modern industry engineering standards:
+Throughout all 256 notebooks, the code strictly adheres to modern industry engineering standards:
 
 1. **PEP 8 Compliance**: Consistent `snake_case` variable naming, uppercase `UPPER_CASE` constants, and clear function docstrings.
 2. **Vectorize First, Loop Never**: Eliminating manual element-by-element iterations whenever a library function can compute in compiled C.
@@ -826,7 +930,7 @@ Throughout all 211 notebooks, the code strictly adheres to modern industry engin
 | **05** | **Exploratory Data Analysis** | Statistical hypothesis testing, correlation analysis, feature profiling | — | Planned ⏳ |
 | **06** | **Classical Machine Learning** | Scikit-Learn regression, classification, clustering, cross-validation | 35 / 35 | Completed ✅ |
 | **07** | **Deep Learning Foundations** | PyTorch, Backpropagation, CNNs for Vision, RNNs & Transformers | 52 / 52 | Completed ✅ |
-| **08** | **Generative AI & MLOps** | LLM fine-tuning, RAG pipelines, model deployment & monitoring | — | Planned ⏳ |
+| **08** | **Generative AI & MLOps** | LLM fine-tuning, RAG pipelines, model deployment & monitoring | 45 / 45 | Completed ✅ |
 
 ---
 
