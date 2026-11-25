@@ -12,14 +12,14 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12%2B-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
-[![Notebooks](https://img.shields.io/badge/Curriculum-256%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
+[![Notebooks](https://img.shields.io/badge/Curriculum-327%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
 [![Status](https://img.shields.io/badge/Status-Active_Development-0070F3?style=for-the-badge)](#-roadmap--progress)
 [![License](https://img.shields.io/badge/License-MIT-00DF72?style=for-the-badge)](#-license)
 
 <br/>
 
 <p align="center">
-  <b>256+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>Transformers, LLMs & Generative AI</b>
+  <b>327+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>RAG, Agents & Production LLM Applications</b>
 </p>
 
 <p align="center">
@@ -31,6 +31,7 @@
   <a href="./Scikit-learn/"><b>⚙️ Scikit-Learn (35)</b></a> •
   <a href="./Deep-Learning/"><b>🧠 Deep Learning (52)</b></a> •
   <a href="./Transformers-and-Generative-AI/"><b>⚡ Transformers & GenAI (45)</b></a> •
+  <a href="./RAG-and-LLM-Applications/"><b>🤖 RAG & LLM Apps (71)</b></a> •
   <a href="#-master-curriculum-breakdown"><b>📚 Notebook Index</b></a> •
   <a href="#-featured-capstone-projects"><b>🏆 Capstones</b></a>
 </p>
@@ -54,6 +55,7 @@
   - [Module 6: ⚙️ Scikit-Learn for Machine Learning & Modeling (35 Notebooks)](#module-6--scikit-learn-for-machine-learning--modeling-35-notebooks)
   - [Module 7: 🧠 Deep Learning, PyTorch & TensorFlow (52 Notebooks)](#module-7--deep-learning-pytorch--tensorflow-52-notebooks)
   - [Module 8: ⚡ Transformers, LLMs & Generative AI (45 Notebooks)](#module-8--transformers-llms--generative-ai-45-notebooks)
+  - [Module 9: 🤖 RAG & LLM Applications (71 Notebooks)](#module-9--rag--llm-applications-71-notebooks)
 - [🏆 Featured Capstone Projects](#-featured-capstone-projects)
   - [1. 🎓 Student Academic Performance & Analytics Engine](#1--student-academic-performance--analytics-engine)
   - [2. 🏠 Vectorized Real Estate Valuation & EDA Pipeline](#2--vectorized-real-estate-valuation--eda-pipeline)
@@ -63,6 +65,7 @@
   - [6. 🎯 Enterprise Customer Churn & Lifetime Risk Predictive Pipeline](#6--enterprise-customer-churn--lifetime-risk-predictive-pipeline)
   - [7. 🌐 Autonomous Multi-Modal Diagnostic & Predictive Intelligence Suite](#7--autonomous-multi-modal-diagnostic--predictive-intelligence-suite)
   - [8. 🏢 Enterprise Knowledge Intelligence & Autonomous Agentic Platform](#8--enterprise-knowledge-intelligence--autonomous-agentic-platform)
+  - [9. 🌐 Multi-Agent Enterprise Knowledge Intelligence Platform](#9--multi-agent-enterprise-knowledge-intelligence-platform)
 - [⚡ Vectorization & Performance Benchmarks](#-vectorization--performance-benchmarks)
 - [🗂️ Repository Architecture](#️-repository-architecture)
 - [💻 Quickstart & Installation](#-quickstart--installation)
@@ -139,16 +142,21 @@ flowchart TD
         G["⚡ Transformers, LLMs & Generative AI<br/>(RAG, LoRA, Agents: 45 Completed Notebooks)"]
     end
 
+    subgraph S8["Phase 8: Production RAG & AI Agent Applications"]
+        H["🤖 RAG & LLM Applications<br/>(Vector DBs, Hybrid RAG, Multi-Agent: 71 Completed Notebooks)"]
+    end
+
     A --> B
     B --> C
     C --> D
     D --> E
     E --> F
     F --> G
+    G --> H
 
     classDef completed fill:#10B981,stroke:#059669,stroke-width:2px,color:#ffffff;
     classDef upcoming fill:#3B82F6,stroke:#2563EB,stroke-width:2px,color:#ffffff;
-    class A,B,C,D,E,F,G completed;
+    class A,B,C,D,E,F,G,H completed;
 ```
 
 ---
@@ -612,6 +620,118 @@ A production-grade masterclass in modern generative AI spanning attention mathem
 
 </details>
 
+<details>
+<summary><b>Module 9: 🤖 RAG & LLM Applications (71 Notebooks)</b></summary>
+<br/>
+
+> **Core Focus:** Building production-grade Generative AI applications using RAG, vector databases, LangChain, LlamaIndex, autonomous AI agents, evaluation frameworks, and safety guardrails.
+> **Documentation:** [`RAG-and-LLM-Applications/README.md`](./RAG-and-LLM-Applications/README.md)
+
+#### Phase 1: LLM Application Foundations (8 Notebooks)
+| # | Notebook | Core Focus & Architecture | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_llm_application_introduction.ipynb`](./RAG-and-LLM-Applications/01_llm_application_introduction.ipynb) | LLM application architecture, Foundation models, Prompting vs Fine-tuning vs RAG | Completed ✅ |
+| 02 | [`02_llm_api_fundamentals.ipynb`](./RAG-and-LLM-Applications/02_llm_api_fundamentals.ipynb) | REST APIs, Temperature, Top-P, Presence/Frequency penalties, Request payloads | Completed ✅ |
+| 03 | [`03_api_integration.ipynb`](./RAG-and-LLM-Applications/03_api_integration.ipynb) | Production API integration, Exponential backoff with jitter, Async batching | Completed ✅ |
+| 04 | [`04_prompt_engineering.ipynb`](./RAG-and-LLM-Applications/04_prompt_engineering.ipynb) | Systematic prompt design, XML delimiter fencing, Few-shot prompting, Chain-of-Thought | Completed ✅ |
+| 05 | [`05_prompt_templates.ipynb`](./RAG-and-LLM-Applications/05_prompt_templates.ipynb) | Dynamic prompt templating, Variable validation schemas, Composable prompt catalogs | Completed ✅ |
+| 06 | [`06_structured_output.ipynb`](./RAG-and-LLM-Applications/06_structured_output.ipynb) | JSON Mode, Pydantic data validation, Function calling schemas & repair loops | Completed ✅ |
+| 07 | [`07_conversation_memory.ipynb`](./RAG-and-LLM-Applications/07_conversation_memory.ipynb) | Conversation memory: Sliding window buffers, Summary memory, Vector-backed history | Completed ✅ |
+| 08 | [`08_streaming_responses.ipynb`](./RAG-and-LLM-Applications/08_streaming_responses.ipynb) | Server-Sent Events (SSE), Streaming token generators, Real-time UI rendering simulation | Completed ✅ |
+
+#### Phase 2: Embeddings & Semantic Search (6 Notebooks)
+| # | Notebook | Vector Metric Space | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_embeddings_introduction.ipynb`](./RAG-and-LLM-Applications/Embeddings/01_embeddings_introduction.ipynb) | Metric spaces, Directional semantics, Word & sentence vector geometry | Completed ✅ |
+| 02 | [`02_text_embeddings.ipynb`](./RAG-and-LLM-Applications/Embeddings/02_text_embeddings.ipynb) | Generating text embeddings, $L_2$ normalization & Matryoshka dimensionality reduction | Completed ✅ |
+| 03 | [`03_sentence_transformers.ipynb`](./RAG-and-LLM-Applications/Embeddings/03_sentence_transformers.ipynb) | Sentence-BERT (SBERT) Siamese architecture & attention-weighted mean pooling | Completed ✅ |
+| 04 | [`04_embedding_models.ipynb`](./RAG-and-LLM-Applications/Embeddings/04_embedding_models.ipynb) | MTEB retrieval leaderboard benchmarks: BGE, E5, GTE & OpenAI models | Completed ✅ |
+| 05 | [`05_similarity_search.ipynb`](./RAG-and-LLM-Applications/Embeddings/05_similarity_search.ipynb) | Distance metrics: Cosine similarity vs Euclidean ($L_2$) distance vs Dot Product | Completed ✅ |
+| 06 | [`06_semantic_search.ipynb`](./RAG-and-LLM-Applications/Embeddings/06_semantic_search.ipynb) | In-memory semantic search engine: Ingestion, Query vectorization & Top-$K$ ranking | Completed ✅ |
+
+#### Phase 3: Vector Databases Masterclass (7 Notebooks)
+| # | Notebook | Index Structure & Engine | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_vector_database_introduction.ipynb`](./RAG-and-LLM-Applications/Vector-Databases/01_vector_database_introduction.ipynb) | Vector DB vs Traditional RDBMS/NoSQL, ANN vs Exact $k$-NN, Index structures (HNSW, IVF, PQ) | Completed ✅ |
+| 02 | [`02_chroma_db.ipynb`](./RAG-and-LLM-Applications/Vector-Databases/02_chroma_db.ipynb) | ChromaDB architecture, Client setup, Collections, CRUD operations, SQLite/DuckDB persistence | Completed ✅ |
+| 03 | [`03_faiss.ipynb`](./RAG-and-LLM-Applications/Vector-Databases/03_faiss.ipynb) | Meta FAISS: IndexFlatL2, IndexFlatIP, Voronoi cells (`IndexIVFFlat`), Product Quantization (`IndexIVFPQ`) | Completed ✅ |
+| 04 | [`04_pinecone.ipynb`](./RAG-and-LLM-Applications/Vector-Databases/04_pinecone.ipynb) | Managed cloud vector search: Serverless indexes, Namespaces, Metadata schemas & top-$K$ queries | Completed ✅ |
+| 05 | [`05_vector_storage_and_retrieval.ipynb`](./RAG-and-LLM-Applications/Vector-Databases/05_vector_storage_and_retrieval.ipynb) | Document chunk lifecycle, Deterministic UUIDs, Batch upsert pipelines, Versioned updates | Completed ✅ |
+| 06 | [`06_metadata_filtering.ipynb`](./RAG-and-LLM-Applications/Vector-Databases/06_metadata_filtering.ipynb) | Pre-filtering, Post-filtering, Single-stage filtered ANN, Boolean expressions (`$eq`, `$in`, `$gte`) | Completed ✅ |
+| 07 | [`07_hybrid_search.ipynb`](./RAG-and-LLM-Applications/Vector-Databases/07_hybrid_search.ipynb) | Fusing sparse BM25 keyword matching with dense vector search, Reciprocal Rank Fusion (RRF) | Completed ✅ |
+
+#### Phase 4: Retrieval-Augmented Generation (RAG) (16 Notebooks)
+| # | Notebook | Core Ingestion & Retrieval Pipeline | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_rag_introduction.ipynb`](./RAG-and-LLM-Applications/RAG/01_rag_introduction.ipynb) | What is RAG? Hallucination mitigation, Grounded knowledge & RAG benefits | Completed ✅ |
+| 02 | [`02_rag_architecture.ipynb`](./RAG-and-LLM-Applications/RAG/02_rag_architecture.ipynb) | End-to-End System Architecture: Offline Ingestion vs Online Query planes | Completed ✅ |
+| 03 | [`03_document_loading.ipynb`](./RAG-and-LLM-Applications/RAG/03_document_loading.ipynb) | Loading multi-format sources: PDF, DOCX, Markdown, HTML, CSV & JSON | Completed ✅ |
+| 04 | [`04_document_parsing.ipynb`](./RAG-and-LLM-Applications/RAG/04_document_parsing.ipynb) | Layout analysis, Table linearization & extracting structured metadata | Completed ✅ |
+| 05 | [`05_text_chunking.ipynb`](./RAG-and-LLM-Applications/RAG/05_text_chunking.ipynb) | Chunking strategies: Recursive character splitting, semantic boundaries & overlap | Completed ✅ |
+| 06 | [`06_embedding_generation.ipynb`](./RAG-and-LLM-Applications/RAG/06_embedding_generation.ipynb) | Batch embedding generation, Token pre-checks & rate-limit throttling | Completed ✅ |
+| 07 | [`07_vector_database_integration.ipynb`](./RAG-and-LLM-Applications/RAG/07_vector_database_integration.ipynb) | Ingesting chunks into vector stores with persistent metadata enrichment | Completed ✅ |
+| 08 | [`08_document_retrieval.ipynb`](./RAG-and-LLM-Applications/RAG/08_document_retrieval.ipynb) | Query similarity search, Distance scores & minimum similarity thresholding | Completed ✅ |
+| 09 | [`09_context_augmentation.ipynb`](./RAG-and-LLM-Applications/RAG/09_context_augmentation.ipynb) | Context injection into prompts, XML delimiter fencing & context budgeting | Completed ✅ |
+| 10 | [`10_rag_pipeline.ipynb`](./RAG-and-LLM-Applications/RAG/10_rag_pipeline.ipynb) | Building a production, modular, object-oriented RAG pipeline class | Completed ✅ |
+| 11 | [`11_retrieval_strategies.ipynb`](./RAG-and-LLM-Applications/RAG/11_retrieval_strategies.ipynb) | Advanced retrieval: Multi-Query synthesis, Step-Back prompting & Parent Document | Completed ✅ |
+| 12 | [`12_reranking.ipynb`](./RAG-and-LLM-Applications/RAG/12_reranking.ipynb) | Two-stage retrieval: Bi-Encoder broad recall (Top-50) + Cross-Encoder re-ranking (Top-5) | Completed ✅ |
+| 13 | [`13_hybrid_rag.ipynb`](./RAG-and-LLM-Applications/RAG/13_hybrid_rag.ipynb) | Hybrid RAG architecture: Dense HNSW + Sparse BM25 + Reciprocal Rank Fusion | Completed ✅ |
+| 14 | [`14_conversational_rag.ipynb`](./RAG-and-LLM-Applications/RAG/14_conversational_rag.ipynb) | Conversational RAG with Chat History: Multi-turn query contextualization | Completed ✅ |
+| 15 | [`15_advanced_rag.ipynb`](./RAG-and-LLM-Applications/RAG/15_advanced_rag.ipynb) | Corrective RAG (CRAG), Self-RAG reflection tokens & Adaptive query routing | Completed ✅ |
+| 16 | [`16_rag_evaluation.ipynb`](./RAG-and-LLM-Applications/RAG/16_rag_evaluation.ipynb) | RAG Triad evaluation: Context Relevance, Faithfulness & Answer Relevance | Completed ✅ |
+
+#### Phase 5: LLM Frameworks: LangChain & LlamaIndex (11 Notebooks)
+| # | Notebook | Framework Capability | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_langchain_introduction.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LangChain/01_langchain_introduction.ipynb) | LangChain architecture, LangChain Expression Language (LCEL) & Runnable protocol | Completed ✅ |
+| 02 | [`02_models_and_prompts.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LangChain/02_models_and_prompts.ipynb) | Chat models, polymorphic message types (`HumanMessage`, `AIMessage`, `SystemMessage`) | Completed ✅ |
+| 03 | [`03_chains_and_runnables.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LangChain/03_chains_and_runnables.ipynb) | `RunnableParallel`, `RunnablePassthrough`, branching logic & `.with_fallbacks()` | Completed ✅ |
+| 04 | [`04_retrievers.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LangChain/04_retrievers.ipynb) | VectorStoreRetriever, EnsembleRetriever & Contextual Compression | Completed ✅ |
+| 05 | [`05_langchain_rag.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LangChain/05_langchain_rag.ipynb) | Canonical LCEL RAG chain: `retriever | format_docs | prompt | model | parser` | Completed ✅ |
+| 06 | [`06_langchain_agents.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LangChain/06_langchain_agents.ipynb) | `@tool` decorator, `create_tool_calling_agent`, `AgentExecutor` & execution traces | Completed ✅ |
+| 07 | [`01_llamaindex_introduction.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LlamaIndex/01_llamaindex_introduction.ipynb) | Data-centric framework, Document vs Node abstraction & relationship graph | Completed ✅ |
+| 08 | [`02_data_connectors.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LlamaIndex/02_data_connectors.ipynb) | LlamaHub connectors: `SimpleDirectoryReader`, database readers & metadata parsing | Completed ✅ |
+| 09 | [`03_indexing_and_retrieval.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LlamaIndex/03_indexing_and_retrieval.ipynb) | `VectorStoreIndex`, `SummaryIndex`, `TreeIndex` & node parsers | Completed ✅ |
+| 10 | [`04_query_engines.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LlamaIndex/04_query_engines.ipynb) | Query engines vs Chat engines, Response synthesis modes (`refine`, `compact`) | Completed ✅ |
+| 11 | [`05_llamaindex_rag.ipynb`](./RAG-and-LLM-Applications/LLM-Frameworks/LlamaIndex/05_llamaindex_rag.ipynb) | End-to-end LlamaIndex RAG application with `SimilarityPostprocessor` & source citations | Completed ✅ |
+
+#### Phase 6: Autonomous AI Agents (7 Notebooks)
+| # | Notebook | Agent Mechanism | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_ai_agents_introduction.ipynb`](./RAG-and-LLM-Applications/AI-Agents/01_ai_agents_introduction.ipynb) | Autonomous Agent architecture, Perception-Reasoning-Action loop & ReAct traces | Completed ✅ |
+| 02 | [`02_tool_calling.ipynb`](./RAG-and-LLM-Applications/AI-Agents/02_tool_calling.ipynb) | Standardized tool schemas, JSON Schema generation, tool execution safety | Completed ✅ |
+| 03 | [`03_function_calling.ipynb`](./RAG-and-LLM-Applications/AI-Agents/03_function_calling.ipynb) | Native model function calling, Parallel function calls & tool response handling | Completed ✅ |
+| 04 | [`04_agent_memory.ipynb`](./RAG-and-LLM-Applications/AI-Agents/04_agent_memory.ipynb) | Agent working memory vs Episodic memory vs Semantic memory & thought scratchpads | Completed ✅ |
+| 05 | [`05_agent_workflows.ipynb`](./RAG-and-LLM-Applications/AI-Agents/05_agent_workflows.ipynb) | Agentic design patterns, Reflection, Planning loops & Human-in-the-loop approval gates | Completed ✅ |
+| 06 | [`06_multi_agent_systems.ipynb`](./RAG-and-LLM-Applications/AI-Agents/06_multi_agent_systems.ipynb) | Multi-agent architectures: Supervisor routing, peer collaboration & synthesis | Completed ✅ |
+| 07 | [`07_agent_evaluation.ipynb`](./RAG-and-LLM-Applications/AI-Agents/07_agent_evaluation.ipynb) | Trajectory evaluation: Tool call accuracy, step count efficiency & goal success rates | Completed ✅ |
+
+#### Phase 7: LLM Optimization, Safety & Evaluation (7 Notebooks)
+| # | Notebook | Operational Discipline | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_llm_evaluation.ipynb`](./RAG-and-LLM-Applications/LLM-Optimization-and-Evaluation/01_llm_evaluation.ipynb) | LLM evaluation paradigms: Human eval, Benchmark suites & LLM-as-a-Judge rubrics | Completed ✅ |
+| 02 | [`02_rag_evaluation_metrics.ipynb`](./RAG-and-LLM-Applications/LLM-Optimization-and-Evaluation/02_rag_evaluation_metrics.ipynb) | RAGAS framework: Faithfulness, Answer Relevance, Context Precision & Context Recall | Completed ✅ |
+| 03 | [`03_hallucination_detection.ipynb`](./RAG-and-LLM-Applications/LLM-Optimization-and-Evaluation/03_hallucination_detection.ipynb) | Detecting hallucinations: Chain-of-Verification (CoVe), Self-Consistency & NLI entailment | Completed ✅ |
+| 04 | [`04_latency_and_token_optimization.ipynb`](./RAG-and-LLM-Applications/LLM-Optimization-and-Evaluation/04_latency_and_token_optimization.ipynb) | Prompt compression (LLMLingua), Speculative decoding, KV Cache reuse & Quantization | Completed ✅ |
+| 05 | [`05_caching.ipynb`](./RAG-and-LLM-Applications/LLM-Optimization-and-Evaluation/05_caching.ipynb) | Exact SHA-256 caching vs Semantic embedding vector caching with Redis / GPTCache | Completed ✅ |
+| 06 | [`06_guardrails_and_safety.ipynb`](./RAG-and-LLM-Applications/LLM-Optimization-and-Evaluation/06_guardrails_and_safety.ipynb) | Ingress & Egress guardrails: Prompt injection shields, Jailbreak defense & PII redaction | Completed ✅ |
+| 07 | [`07_llm_observability.ipynb`](./RAG-and-LLM-Applications/LLM-Optimization-and-Evaluation/07_llm_observability.ipynb) | Observability: OpenTelemetry distributed tracing, Token usage accounting & Latency profiling | Completed ✅ |
+
+#### Phase 8: Portfolio Projects & Master Capstone (9 Notebooks)
+| # | Project | Domain & Application Architecture | Status |
+| :-: | :--- | :--- | :-: |
+| 01 | [`01_ai_chatbot.ipynb`](./RAG-and-LLM-Applications/Projects/01_ai_chatbot.ipynb) | Multi-Turn Conversational Assistant with Context Management & Sliding Memory Window | Completed ✅ |
+| 02 | [`02_pdf_question_answering.ipynb`](./RAG-and-LLM-Applications/Projects/02_pdf_question_answering.ipynb) | Multi-PDF Question Answering with Exact Page & Paragraph Citations | Completed ✅ |
+| 03 | [`03_rag_document_chatbot.ipynb`](./RAG-and-LLM-Applications/Projects/03_rag_document_chatbot.ipynb) | Enterprise Document Intelligence RAG Assistant with ChromaDB Vector Store | Completed ✅ |
+| 04 | [`04_website_knowledge_chatbot.ipynb`](./RAG-and-LLM-Applications/Projects/04_website_knowledge_chatbot.ipynb) | Web Crawler & Sitemap Knowledge Ingestion RAG Assistant | Completed ✅ |
+| 05 | [`05_ai_research_assistant.ipynb`](./RAG-and-LLM-Applications/Projects/05_ai_research_assistant.ipynb) | Autonomous Multi-Tool Research Assistant (Web Search + Internal RAG + Citations) | Completed ✅ |
+| 06 | [`06_resume_analysis_system.ipynb`](./RAG-and-LLM-Applications/Projects/06_resume_analysis_system.ipynb) | Automated Talent Intelligence: Resume Parsing, Skill Graph Extraction & Job Match Scoring | Completed ✅ |
+| 07 | [`07_multi_document_rag.ipynb`](./RAG-and-LLM-Applications/Projects/07_multi_document_rag.ipynb) | Cross-Document Multi-Corpus RAG Engine with Hierarchical Routing | Completed ✅ |
+| 08 | [`08_ai_agent_assistant.ipynb`](./RAG-and-LLM-Applications/Projects/08_ai_agent_assistant.ipynb) | Autonomous Tool-Calling Agent Assistant with Human-in-the-Loop Approval & Execution Logging | Completed ✅ |
+| 09 | [`09_final_rag_llm_application.ipynb`](./RAG-and-LLM-Applications/Projects/09_final_rag_llm_application.ipynb) | **Master Enterprise Capstone:** Production-Ready Multi-Agent Enterprise Knowledge Intelligence Platform | Completed ✅ |
+
+</details>
+
 ---
 
 ## 🏆 Featured Capstone Projects
@@ -661,6 +781,12 @@ Each module culminates in an industry-style capstone project that synthesizes al
 │ • Hybrid Retrieval Engine: Fuses Sparse BM25 Keyword Search with Dense HNSW Vector Embeddings   │
 │ • Neural Cross-Encoder Re-Ranking Pipeline with Reciprocal Rank Fusion (RRF) Context Filtering │
 │ • Domain Fine-Tuned LoRA / QLoRA Adapter Integration & RAGAS Faithfulness Hallucination Guard   │
+├─────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ 🌐 Multi-Agent Enterprise Knowledge Intelligence Platform [RAG & LLM Applications Capstone]     │
+│ • End-to-End Hybrid RAG Architecture: Dense HNSW Index + Sparse BM25 + Reciprocal Rank Fusion   │
+│ • Multi-Agent Supervisor Orchestrator with Autonomous Tool Execution & Human-in-the-Loop Gate   │
+│ • Cross-Encoder Neural Re-Ranking Pipeline & RAGAS Automated Faithfulness Metric Auditing       │
+│ • Ingress/Egress Guardrails: Prompt Injection Shield, PII Redaction & OpenTelemetry Tracing     │
 └─────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -711,6 +837,12 @@ Each module culminates in an industry-style capstone project that synthesizes al
 - **Primary Stack:** PyTorch 2.0+, Hugging Face Transformers, LoRA / PEFT, LangChain, Vector Databases, Guardrails
 - **Key Concepts:** Multi-layer security guardrails against prompt injection and PII leakage, Hybrid Search (BM25 + HNSW vector indexing) with Reciprocal Rank Fusion, Cross-Encoder neural re-ranking, LoRA domain instruction tuning, autonomous function calling agents, and RAGAS answer faithfulness auditing.
 - **Problem Solved:** Synthesizes disparate corporate documents, wikis, and technical manuals into a unified, hallucination-resistant enterprise knowledge platform equipped with autonomous tool invocation and audit logging.
+
+### 9. 🌐 Multi-Agent Enterprise Knowledge Intelligence Platform
+- **Notebook:** [`RAG-and-LLM-Applications/Projects/09_final_rag_llm_application.ipynb`](./RAG-and-LLM-Applications/Projects/09_final_rag_llm_application.ipynb)
+- **Primary Stack:** Python 3.10+, ChromaDB / FAISS, LangChain LCEL, LlamaIndex, Pydantic, RAGAS, OpenTelemetry
+- **Key Concepts:** Complete end-to-end production RAG application, multi-agent supervisory routing, hybrid retrieval (dense HNSW embeddings + sparse BM25), reciprocal rank fusion (RRF), cross-encoder neural re-ranking, real-time safety guardrails (prompt injection & PII redaction), human-in-the-loop approval mechanisms, and distributed OpenTelemetry execution tracing.
+- **Problem Solved:** Deploys an enterprise-grade, multi-agent conversational intelligence engine that ingests heterogeneous corporate documents (PDF, Markdown, HTML), resolves domain-specific inquiries with exact page citations, enforces safety compliance, and eliminates LLM hallucinations with audited faithfulness metrics.
 
 ---
 
@@ -799,6 +931,17 @@ AI-ML-Learning/
 │   ├── ⚙️ LLM-Application-Development/ # 11 Notebooks: REST APIs, Hybrid RAG, LoRA, Agents, Guardrails
 │   ├── 🏆 Projects/                    # 8 Portfolio Projects & Enterprise Master Capstone
 │   └── README.md                       # Master Transformers & GenAI Module guide
+│
+├── 🤖 RAG-and-LLM-Applications/        # [COMPLETED] 71 Notebooks: Production RAG, Agents & Frameworks
+│   ├── 01_llm_application_introduction.ipynb ... 08_streaming_responses.ipynb
+│   ├── 📐 Embeddings/                  # 6 Notebooks: Vector spaces, SBERT, MTEB, Semantic Search
+│   ├── 🗄️ Vector-Databases/            # 7 Notebooks: ChromaDB, FAISS, Pinecone, Filtering, RRF
+│   ├── 🔍 RAG/                         # 16 Notebooks: Ingestion, Chunking, Re-ranking, Advanced RAG
+│   ├── ⚡ LLM-Frameworks/              # 11 Notebooks: LangChain (6) & LlamaIndex (5)
+│   ├── 🧠 AI-Agents/                   # 7 Notebooks: ReAct loops, Function calling, Multi-agent
+│   ├── 🛡️ LLM-Optimization-and-Evaluation/ # 7 Notebooks: RAGAS, Hallucinations, Guardrails
+│   ├── 🏆 Projects/                    # 9 Portfolio Projects & Production Master Capstone
+│   └── README.md                       # Master RAG & LLM Applications Module guide
 │
 ├── .gitignore                          # Standard Python/Jupyter ignore rules
 ├── requirements.txt                    # Pinned core dependencies
@@ -909,7 +1052,7 @@ jupyter notebook
 
 ## 📐 Best Practices & Coding Philosophy
 
-Throughout all 256 notebooks, the code strictly adheres to modern industry engineering standards:
+Throughout all 327 notebooks, the code strictly adheres to modern industry engineering standards:
 
 1. **PEP 8 Compliance**: Consistent `snake_case` variable naming, uppercase `UPPER_CASE` constants, and clear function docstrings.
 2. **Vectorize First, Loop Never**: Eliminating manual element-by-element iterations whenever a library function can compute in compiled C.
@@ -931,6 +1074,7 @@ Throughout all 256 notebooks, the code strictly adheres to modern industry engin
 | **06** | **Classical Machine Learning** | Scikit-Learn regression, classification, clustering, cross-validation | 35 / 35 | Completed ✅ |
 | **07** | **Deep Learning Foundations** | PyTorch, Backpropagation, CNNs for Vision, RNNs & Transformers | 52 / 52 | Completed ✅ |
 | **08** | **Generative AI & MLOps** | LLM fine-tuning, RAG pipelines, model deployment & monitoring | 45 / 45 | Completed ✅ |
+| **09** | **RAG & LLM Applications** | Vector DBs, Hybrid RAG, LangChain, LlamaIndex, Multi-Agent Systems | 71 / 71 | Completed ✅ |
 
 ---
 
