@@ -1195,7 +1195,7 @@ Contributions, feedback, and issue reports are warmly welcomed! If you find a ty
 
 ## 👤 Author & Acknowledgments
 
-**Vijaya Pandian T**
+**Vijayapandian T**
 - **GitHub:** [@VIJAYAPANDIANT](https://github.com/VIJAYAPANDIANT)
 - **Repository:** [VIJAYAPANDIANT/AI-ML-Learning](https://github.com/VIJAYAPANDIANT/AI-ML-Learning)
 
