@@ -12,14 +12,14 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12%2B-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
-[![Notebooks](https://img.shields.io/badge/Curriculum-327%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
+[![Notebooks](https://img.shields.io/badge/Curriculum-345%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
 [![Status](https://img.shields.io/badge/Status-Active_Development-0070F3?style=for-the-badge)](#-roadmap--progress)
 [![License](https://img.shields.io/badge/License-MIT-00DF72?style=for-the-badge)](#-license)
 
 <br/>
 
 <p align="center">
-  <b>327+ Hands-On Notebooks</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>RAG, Agents & Production LLM Applications</b>
+  <b>345+ Hands-On Notebooks & 18 Real-World Projects</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>ML, DL, RAG & Edge IoT</b>
 </p>
 
 <p align="center">
@@ -32,6 +32,7 @@
   <a href="./Deep-Learning/"><b>🧠 Deep Learning (52)</b></a> •
   <a href="./Transformers-and-Generative-AI/"><b>⚡ Transformers & GenAI (45)</b></a> •
   <a href="./RAG-and-LLM-Applications/"><b>🤖 RAG & LLM Apps (71)</b></a> •
+  <a href="./AI-ML-Projects/"><b>🚀 Portfolio Projects (18)</b></a> •
   <a href="#-master-curriculum-breakdown"><b>📚 Notebook Index</b></a> •
   <a href="#-featured-capstone-projects"><b>🏆 Capstones</b></a>
 </p>
@@ -56,6 +57,7 @@
   - [Module 7: 🧠 Deep Learning, PyTorch & TensorFlow (52 Notebooks)](#module-7--deep-learning-pytorch--tensorflow-52-notebooks)
   - [Module 8: ⚡ Transformers, LLMs & Generative AI (45 Notebooks)](#module-8--transformers-llms--generative-ai-45-notebooks)
   - [Module 9: 🤖 RAG & LLM Applications (71 Notebooks)](#module-9--rag--llm-applications-71-notebooks)
+  - [Module 10: 🚀 Real-World AI/ML Portfolio Projects (18 Projects)](#module-10--real-world-aiml-portfolio-projects-18-projects)
 - [🏆 Featured Capstone Projects](#-featured-capstone-projects)
   - [1. 🎓 Student Academic Performance & Analytics Engine](#1--student-academic-performance--analytics-engine)
   - [2. 🏠 Vectorized Real Estate Valuation & EDA Pipeline](#2--vectorized-real-estate-valuation--eda-pipeline)
@@ -146,6 +148,10 @@ flowchart TD
         H["🤖 RAG & LLM Applications<br/>(Vector DBs, Hybrid RAG, Multi-Agent: 71 Completed Notebooks)"]
     end
 
+    subgraph S9["Phase 9: Real-World AI/ML Portfolio Projects"]
+        I["🚀 Real-World AI/ML Projects<br/>(ML, DL, RAG, IoT & Edge: 18 Completed Projects)"]
+    end
+
     A --> B
     B --> C
     C --> D
@@ -153,10 +159,11 @@ flowchart TD
     E --> F
     F --> G
     G --> H
+    H --> I
 
     classDef completed fill:#10B981,stroke:#059669,stroke-width:2px,color:#ffffff;
     classDef upcoming fill:#3B82F6,stroke:#2563EB,stroke-width:2px,color:#ffffff;
-    class A,B,C,D,E,F,G,H completed;
+    class A,B,C,D,E,F,G,H,I completed;
 ```
 
 ---
@@ -732,6 +739,49 @@ A production-grade masterclass in modern generative AI spanning attention mathem
 
 </details>
 
+<details>
+<summary><b>Module 10: 🚀 Real-World AI/ML Portfolio Projects (18 Projects)</b></summary>
+<br/>
+
+> **Core Focus:** End-to-end, production-ready portfolio applications spanning Machine Learning, Deep Learning, Generative AI, RAG, and Real-World IoT Telemetry.
+> **Documentation:** [`AI-ML-Projects/README.md`](./AI-ML-Projects/README.md)
+
+#### 1. Machine Learning Projects (5 Projects)
+| # | Project | Domain & Algorithms | Deliverables | Status |
+| :-: | :--- | :--- | :--- | :-: |
+| 01 | [`01_house_price_prediction`](./AI-ML-Projects/01_house_price_prediction/) | Real Estate Valuation • Ridge, Random Forest, Gradient Boosting | [README](./AI-ML-Projects/01_house_price_prediction/README.md) • [Notebook](./AI-ML-Projects/01_house_price_prediction/notebook.ipynb) • [Script](./AI-ML-Projects/01_house_price_prediction/pipeline.py) | Completed ✅ |
+| 02 | [`02_credit_card_fraud_detection`](./AI-ML-Projects/02_credit_card_fraud_detection/) | FinTech Security • Logistic Regression, Isolation Forest, PR-AUC | [README](./AI-ML-Projects/02_credit_card_fraud_detection/README.md) • [Notebook](./AI-ML-Projects/02_credit_card_fraud_detection/notebook.ipynb) • [Script](./AI-ML-Projects/02_credit_card_fraud_detection/pipeline.py) | Completed ✅ |
+| 03 | [`03_customer_segmentation`](./AI-ML-Projects/03_customer_segmentation/) | Retail Analytics • K-Means, DBSCAN, RFM Analysis, Silhouette Score | [README](./AI-ML-Projects/03_customer_segmentation/README.md) • [Notebook](./AI-ML-Projects/03_customer_segmentation/notebook.ipynb) • [Script](./AI-ML-Projects/03_customer_segmentation/pipeline.py) | Completed ✅ |
+| 04 | [`04_sales_forecasting`](./AI-ML-Projects/04_sales_forecasting/) | E-Commerce Demand • Lag Features, Rolling Means, Gradient Boosting | [README](./AI-ML-Projects/04_sales_forecasting/README.md) • [Notebook](./AI-ML-Projects/04_sales_forecasting/notebook.ipynb) • [Script](./AI-ML-Projects/04_sales_forecasting/pipeline.py) | Completed ✅ |
+| 05 | [`05_spam_detection`](./AI-ML-Projects/05_spam_detection/) | Cyber Messaging • Multinomial Naive Bayes, TF-IDF, Phishing Regex | [README](./AI-ML-Projects/05_spam_detection/README.md) • [Notebook](./AI-ML-Projects/05_spam_detection/notebook.ipynb) • [Script](./AI-ML-Projects/05_spam_detection/pipeline.py) | Completed ✅ |
+
+#### 2. Deep Learning & Computer Vision Projects (3 Projects)
+| # | Project | Architecture & Problem Solved | Deliverables | Status |
+| :-: | :--- | :--- | :--- | :-: |
+| 06 | [`06_plant_disease_detection`](./AI-ML-Projects/06_plant_disease_detection/) | Crop Pathology • Deep CNNs, Transfer Learning, MobileNet/ResNet | [README](./AI-ML-Projects/06_plant_disease_detection/README.md) • [Notebook](./AI-ML-Projects/06_plant_disease_detection/notebook.ipynb) • [Script](./AI-ML-Projects/06_plant_disease_detection/pipeline.py) | Completed ✅ |
+| 07 | [`07_chest_xray_classification`](./AI-ML-Projects/07_chest_xray_classification/) | Thoracic Radiography • Multi-Label CNN, BCEWithLogits, Grad-CAM | [README](./AI-ML-Projects/07_chest_xray_classification/README.md) • [Notebook](./AI-ML-Projects/07_chest_xray_classification/notebook.ipynb) • [Script](./AI-ML-Projects/07_chest_xray_classification/pipeline.py) | Completed ✅ |
+| 08 | [`08_vehicle_detection`](./AI-ML-Projects/08_vehicle_detection/) | Intelligent Traffic Surveillance • OpenCV, Centroid Tracking, Flow Rate | [README](./AI-ML-Projects/08_vehicle_detection/README.md) • [Notebook](./AI-ML-Projects/08_vehicle_detection/notebook.ipynb) • [Script](./AI-ML-Projects/08_vehicle_detection/pipeline.py) | Completed ✅ |
+
+#### 3. Generative AI, RAG & Autonomous Agents (5 Projects)
+| # | Project | GenAI Architecture & Integration | Deliverables | Status |
+| :-: | :--- | :--- | :--- | :-: |
+| 09 | [`09_pdf_rag_assistant`](./AI-ML-Projects/09_pdf_rag_assistant/) | Knowledge Extraction • ChromaDB Vector Search, Exact Page Citations | [README](./AI-ML-Projects/09_pdf_rag_assistant/README.md) • [Notebook](./AI-ML-Projects/09_pdf_rag_assistant/notebook.ipynb) • [Script](./AI-ML-Projects/09_pdf_rag_assistant/pipeline.py) | Completed ✅ |
+| 10 | [`10_ai_resume_matcher`](./AI-ML-Projects/10_ai_resume_matcher/) | Talent Analytics • Pydantic Extraction, Sentence-BERT, Gap Diagnosis | [README](./AI-ML-Projects/10_ai_resume_matcher/README.md) • [Notebook](./AI-ML-Projects/10_ai_resume_matcher/notebook.ipynb) • [Script](./AI-ML-Projects/10_ai_resume_matcher/pipeline.py) | Completed ✅ |
+| 11 | [`11_research_paper_assistant`](./AI-ML-Projects/11_research_paper_assistant/) | Academic Intelligence • ArXiv API, Multi-Vector RAG, Comparative Review | [README](./AI-ML-Projects/11_research_paper_assistant/README.md) • [Notebook](./AI-ML-Projects/11_research_paper_assistant/notebook.ipynb) • [Script](./AI-ML-Projects/11_research_paper_assistant/pipeline.py) | Completed ✅ |
+| 12 | [`12_ai_business_intelligence`](./AI-ML-Projects/12_ai_business_intelligence/) | Text-to-Data • Automated Pandas Code Generation, AST Sanitizer, Insights | [README](./AI-ML-Projects/12_ai_business_intelligence/README.md) • [Notebook](./AI-ML-Projects/12_ai_business_intelligence/notebook.ipynb) • [Script](./AI-ML-Projects/12_ai_business_intelligence/pipeline.py) | Completed ✅ |
+| 13 | [`13_ai_agent_assistant`](./AI-ML-Projects/13_ai_agent_assistant/) | Workflow Autonomy • Multi-Step ReAct Planning, Tool Calling, HITL Gate | [README](./AI-ML-Projects/13_ai_agent_assistant/README.md) • [Notebook](./AI-ML-Projects/13_ai_agent_assistant/notebook.ipynb) • [Script](./AI-ML-Projects/13_ai_agent_assistant/pipeline.py) | Completed ✅ |
+
+#### 4. Real-World Domain-Specific Systems (5 Projects)
+| # | Project | Domain Telemetry & Impact | Deliverables | Status |
+| :-: | :--- | :--- | :--- | :-: |
+| 14 | [`14_railway_track_monitoring`](./AI-ML-Projects/14_railway_track_monitoring/) | Rail Safety • IoT Accelerometers, Isolation Forest Anomaly Detection | [README](./AI-ML-Projects/14_railway_track_monitoring/README.md) • [Notebook](./AI-ML-Projects/14_railway_track_monitoring/notebook.ipynb) • [Script](./AI-ML-Projects/14_railway_track_monitoring/pipeline.py) | Completed ✅ |
+| 15 | [`15_smart_waste_management`](./AI-ML-Projects/15_smart_waste_management/) | Sustainability • Material Classification, Bin Telemetry, TSP Route Optimization | [README](./AI-ML-Projects/15_smart_waste_management/README.md) • [Notebook](./AI-ML-Projects/15_smart_waste_management/notebook.ipynb) • [Script](./AI-ML-Projects/15_smart_waste_management/pipeline.py) | Completed ✅ |
+| 16 | [`16_smart_agriculture`](./AI-ML-Projects/16_smart_agriculture/) | Agronomy • Soil NPK Ratios, Rainfall Radar, Crop Recommendation | [README](./AI-ML-Projects/16_smart_agriculture/README.md) • [Notebook](./AI-ML-Projects/16_smart_agriculture/notebook.ipynb) • [Script](./AI-ML-Projects/16_smart_agriculture/pipeline.py) | Completed ✅ |
+| 17 | [`17_flood_prediction`](./AI-ML-Projects/17_flood_prediction/) | Disaster Warning • Hydrology Inundation Risk, DEM Elevation Modeling | [README](./AI-ML-Projects/17_flood_prediction/README.md) • [Notebook](./AI-ML-Projects/17_flood_prediction/notebook.ipynb) • [Script](./AI-ML-Projects/17_flood_prediction/pipeline.py) | Completed ✅ |
+| 18 | [`18_network_intrusion_detection`](./AI-ML-Projects/18_network_intrusion_detection/) | Cybersecurity • Packet Telemetry, DoS & Port Scan Threat Mitigation | [README](./AI-ML-Projects/18_network_intrusion_detection/README.md) • [Notebook](./AI-ML-Projects/18_network_intrusion_detection/notebook.ipynb) • [Script](./AI-ML-Projects/18_network_intrusion_detection/pipeline.py) | Completed ✅ |
+
+</details>
+
 ---
 
 ## 🏆 Featured Capstone Projects
@@ -943,6 +993,13 @@ AI-ML-Learning/
 │   ├── 🏆 Projects/                    # 9 Portfolio Projects & Production Master Capstone
 │   └── README.md                       # Master RAG & LLM Applications Module guide
 │
+├── 🚀 AI-ML-Projects/                  # [COMPLETED] 18 End-to-End Real-World Portfolio Projects
+│   ├── 01_house_price_prediction ... 05_spam_detection (Machine Learning)
+│   ├── 06_plant_disease_detection ... 08_vehicle_detection (Deep Learning & CV)
+│   ├── 09_pdf_rag_assistant ... 13_ai_agent_assistant (GenAI, RAG & Agents)
+│   ├── 14_railway_track_monitoring ... 18_network_intrusion_detection (Domain & IoT)
+│   └── README.md                       # Master Portfolio Projects Directory Guide
+│
 ├── .gitignore                          # Standard Python/Jupyter ignore rules
 ├── requirements.txt                    # Pinned core dependencies
 └── README.md                           # Master repository documentation
@@ -1052,7 +1109,7 @@ jupyter notebook
 
 ## 📐 Best Practices & Coding Philosophy
 
-Throughout all 327 notebooks, the code strictly adheres to modern industry engineering standards:
+Throughout all 345 notebooks, the code strictly adheres to modern industry engineering standards:
 
 1. **PEP 8 Compliance**: Consistent `snake_case` variable naming, uppercase `UPPER_CASE` constants, and clear function docstrings.
 2. **Vectorize First, Loop Never**: Eliminating manual element-by-element iterations whenever a library function can compute in compiled C.
@@ -1075,6 +1132,7 @@ Throughout all 327 notebooks, the code strictly adheres to modern industry engin
 | **07** | **Deep Learning Foundations** | PyTorch, Backpropagation, CNNs for Vision, RNNs & Transformers | 52 / 52 | Completed ✅ |
 | **08** | **Generative AI & MLOps** | LLM fine-tuning, RAG pipelines, model deployment & monitoring | 45 / 45 | Completed ✅ |
 | **09** | **RAG & LLM Applications** | Vector DBs, Hybrid RAG, LangChain, LlamaIndex, Multi-Agent Systems | 71 / 71 | Completed ✅ |
+| **10** | **Real-World AI/ML Projects** | End-to-End ML, Deep Learning, GenAI RAG, IoT Telemetry | 18 / 18 | Completed ✅ |
 
 ---
 
