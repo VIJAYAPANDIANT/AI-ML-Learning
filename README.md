@@ -6,21 +6,24 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-4C72B0?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12%2B-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/)
+[![LangChain](https://img.shields.io/badge/LangChain-Orchestration-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Production%20Serving-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Notebooks](https://img.shields.io/badge/Curriculum-345%20Completed-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](#-master-curriculum-breakdown)
 [![Status](https://img.shields.io/badge/Status-Active_Development-0070F3?style=for-the-badge)](#-roadmap--progress)
 [![License](https://img.shields.io/badge/License-MIT-00DF72?style=for-the-badge)](#-license)
 
 <br/>
 
-<p align="center">
-  <b>345+ Hands-On Notebooks & 18 Real-World Projects</b> • <b>Zero-to-Hero Roadmap</b> • <b>Real-World Capstone Projects</b> • <b>ML, DL, RAG & Edge IoT</b>
-</p>
+| 📓 345+ Notebooks | 🚀 18 Industry Projects | 🏆 9 Flagship Capstones | 🧠 10 Learning Modules | ⚡ 100% Code-First |
+| :---: | :---: | :---: | :---: | :---: |
+| Executable Jupyter notebooks | Full-stack end-to-end apps | Multi-concept enterprise capstones | Python to GenAI & AI Agents | Tested, PEP-8 production code |
+
+<br/>
 
 <p align="center">
   <a href="./Python/"><b>🐍 Python (27)</b></a> •
@@ -176,34 +179,64 @@ Depending on your personal goals and experience level, choose the study path tha
 <summary><b>🎯 Track A: Data Analyst & BI Specialist Track</b></summary>
 <br/>
 
-Focuses on exploratory data manipulation, time-series analysis, aggregation metrics, and reporting:
+Focuses on exploratory data manipulation, statistical visualization, and executive reporting:
 1. **Python Essentials**: `01_python_introduction` → `11_dictionaries` → `16_file_handling` → `21_python_datetime`
 2. **NumPy Fundamentals**: `01_numpy_introduction` → `05_numpy_slicing` → `09_numpy_aggregate_functions` → `10_numpy_filtering`
-3. **Pandas Mastery (Full Suite)**: `01_pandas_introduction` through `25_pandas_optimization`
-4. **Capstone**: [Global E-Commerce & Retail Intelligence Suite](./Pandas/27_pandas_mini_project.ipynb)
+3. **Pandas Mastery**: `01_pandas_introduction` through `25_pandas_optimization`
+4. **Data Visualization**: Matplotlib (`01` to `24`) & Seaborn (`01` to `26`)
+5. **Capstones**: [Global E-Commerce Analytics](./Pandas/27_pandas_mini_project.ipynb) & [Health & Economic Dashboard](./Matplotlib/24_matplotlib_mini_project.ipynb)
 
 </details>
 
 <details>
-<summary><b>⚡ Track B: Machine Learning Engineer Track</b></summary>
+<summary><b>⚡ Track B: Classical Machine Learning Engineer Track</b></summary>
 <br/>
 
-Focuses on mathematical rigor, vectorization, OOP system architecture, and feature engineering:
-1. **Advanced Python**: `12_functions` → `18_object_oriented_programming` → `19_iterators_and_generators` → `20_decorators`
-2. **NumPy Deep-Dive**: `06_numpy_arithmetic` → `07_broadcasting` → `13_array_attributes` → `17_copy_vs_view` → `18_linear_algebra`
-3. **Pandas Transformation**: `08_pandas_filtering` → `13_groupby` → `15_merging` → `25_optimization`
-4. **Capstones**: [Real Estate Valuation & EDA](./Numpy/20_numpy_mini_project.ipynb) & [Pandas Retail Analytics](./Pandas/27_pandas_mini_project.ipynb)
+Focuses on mathematical rigor, feature preprocessing, ensemble algorithms, and model persistence:
+1. **Linear Algebra & Vectorization**: NumPy arrays, matrix math (`@`), broadcasting, downcasting
+2. **Scikit-Learn Workflows**: Preprocessing (`06_data_preprocessing` to `09_feature_scaling`)
+3. **Supervised Algorithms**: Linear/Logistic Regression, Random Forest, SVM, Gradient Boosting (`11` to `20`)
+4. **Leakage-Free Pipelines**: ColumnTransformers, Cross-Validation & Hyperparameter Tuning (`29` to `33`)
+5. **Capstone**: [Enterprise Churn & Risk Predictive Pipeline](./Scikit-learn/35_scikit_learn_mini_project.ipynb)
 
 </details>
 
 <details>
-<summary><b>🚀 Track C: Speed-Run / Refresher Track</b></summary>
+<summary><b>🧠 Track C: Deep Learning & Computer Vision Specialist Track</b></summary>
 <br/>
 
-For experienced developers seeking a quick, focused refresher of modern syntax and techniques:
-- 🐍 [Python Practice Sets](./Python/26_python_practice.ipynb) & [Python Capstone](./Python/27_python_mini_project.ipynb)
-- 🔢 [NumPy Linear Algebra](./Numpy/18_numpy_linear_algebra.ipynb) & [NumPy Capstone](./Numpy/20_numpy_mini_project.ipynb)
-- 📊 [Pandas Optimization](./Pandas/25_pandas_optimization.ipynb) & [Pandas Capstone](./Pandas/27_pandas_mini_project.ipynb)
+Focuses on gradient backpropagation, deep convolutional backbones, sequence models, and edge serving:
+1. **Deep Learning Fundamentals**: Biological vs artificial neurons, forward/backward prop, optimizers (`01` to `12`)
+2. **TensorFlow & Keras**: Sequential & Functional APIs, CNNs, LSTMs, Callbacks (`TensorFlow/01` to `13`)
+3. **PyTorch Ecosystem**: Tensors, Autograd, Custom Datasets & DataLoaders, Training loops (`PyTorch/01` to `13`)
+4. **Advanced Architectures**: ResNet, Transfer Learning, Autoencoders, GPU AMP acceleration (`Advanced-Deep-Learning/01` to `09`)
+5. **Capstone**: [Autonomous Multi-Modal Diagnostic Suite](./Deep-Learning/Projects/05_deep_learning_final_project.ipynb)
+
+</details>
+
+<details>
+<summary><b>🤖 Track D: Generative AI, RAG & Autonomous Agent Architect Track</b></summary>
+<br/>
+
+Focuses on modern frontier AI: Self-Attention, LLM fine-tuning, Hybrid RAG, LangChain/LlamaIndex, and Multi-Agent ReAct loops:
+1. **Transformer Foundations**: Attention mechanisms, Encoders, Decoders, RoPE, BERT vs GPT (`01` to `10`)
+2. **LLM Mechanics**: Scaling laws, RMSNorm, GQA, LoRA & QLoRA PEFT adapters (`LLM-Fundamentals/01` to `08`)
+3. **High-Dimensional Vector Databases**: ChromaDB, Meta FAISS, Pinecone, Reciprocal Rank Fusion (`Vector-Databases/01` to `07`)
+4. **Enterprise Hybrid RAG**: Ingestion, Chunking, Cross-Encoder Re-ranking, Conversational Memory (`RAG/01` to `16`)
+5. **Frameworks & Agents**: LangChain LCEL, LlamaIndex, ReAct planning loops, HITL approval gates (`AI-Agents/01` to `07`)
+6. **Capstones**: [GenAI Knowledge Platform](./Transformers-and-Generative-AI/Projects/08_generative_ai_final_project.ipynb) & [Multi-Agent Enterprise Intelligence Suite](./RAG-and-LLM-Applications/Projects/09_final_rag_llm_application.ipynb)
+
+</details>
+
+<details>
+<summary><b>🚀 Track E: Real-World Applied AI Portfolio Track (18 Projects)</b></summary>
+<br/>
+
+Direct implementation path across all 18 standalone, industry-style portfolio applications:
+- **ML & Analytics**: [House Price Prediction](./AI-ML-Projects/01_house_price_prediction/), [Credit Card Fraud](./AI-ML-Projects/02_credit_card_fraud_detection/), [Customer Segmentation](./AI-ML-Projects/03_customer_segmentation/), [Sales Forecasting](./AI-ML-Projects/04_sales_forecasting/), [Spam Detection](./AI-ML-Projects/05_spam_detection/)
+- **Computer Vision & Deep Learning**: [Plant Leaf Pathology](./AI-ML-Projects/06_plant_disease_detection/), [Chest X-Ray Classification](./AI-ML-Projects/07_chest_xray_classification/), [Smart Traffic Vehicle Detection](./AI-ML-Projects/08_vehicle_detection/)
+- **Generative AI & RAG**: [Intelligent PDF RAG Assistant](./AI-ML-Projects/09_pdf_rag_assistant/), [AI Resume Matcher](./AI-ML-Projects/10_ai_resume_matcher/), [Research Paper Assistant](./AI-ML-Projects/11_research_paper_assistant/), [Text-to-Data BI Assistant](./AI-ML-Projects/12_ai_business_intelligence/), [Autonomous AI Task Agent](./AI-ML-Projects/13_ai_agent_assistant/)
+- **Real-World IoT & Edge**: [Railway Track Monitoring](./AI-ML-Projects/14_railway_track_monitoring/), [Smart Waste Sorting](./AI-ML-Projects/15_smart_waste_management/), [Smart Agriculture](./AI-ML-Projects/16_smart_agriculture/), [Urban Flood Prediction](./AI-ML-Projects/17_flood_prediction/), [Network Intrusion Detection (NIDS)](./AI-ML-Projects/18_network_intrusion_detection/)
 
 </details>
 
@@ -1092,17 +1125,55 @@ jupyter notebook
 
 ## 🛠️ Tech Stack & Ecosystem
 
+### 💻 Languages, Runtimes & Dev Tools
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" height="32" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" height="32" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" height="32" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" height="32" />
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" height="32" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge" alt="Matplotlib" height="32" />
-  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge" alt="Seaborn" height="32" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" height="32" />
-  <img src="https://img.shields.io/badge/Apache_Parquet-43B02A?style=for-the-badge" alt="Parquet" height="32" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" height="32" />
+  <img src="https://img.shields.io/badge/Python_3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" height="28" />
+  <img src="https://img.shields.io/badge/Jupyter_Lab-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" height="28" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" height="28" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" height="28" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" height="28" />
+</p>
+
+### 📊 Data Processing, Wrangling & Analytics
+<p align="left">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" height="28" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" height="28" />
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" height="28" />
+  <img src="https://img.shields.io/badge/Apache_Parquet-43B02A?style=for-the-badge" alt="Parquet" height="28" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge" alt="Matplotlib" height="28" />
+  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge" alt="Seaborn" height="28" />
+</p>
+
+### ⚙️ Classical Machine Learning & Optimization
+<p align="left">
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" height="28" />
+  <img src="https://img.shields.io/badge/XGBoost-EB392E?style=for-the-badge" alt="XGBoost" height="28" />
+  <img src="https://img.shields.io/badge/LightGBM-2E7D32?style=for-the-badge" alt="LightGBM" height="28" />
+  <img src="https://img.shields.io/badge/Optuna-295F98?style=for-the-badge" alt="Optuna" height="28" />
+</p>
+
+### 🧠 Deep Learning & Computer Vision
+<p align="left">
+  <img src="https://img.shields.io/badge/PyTorch_2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" height="28" />
+  <img src="https://img.shields.io/badge/TensorFlow_2.12+-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" height="28" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" height="28" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" height="28" />
+</p>
+
+### 🤖 Generative AI, LLMs, RAG & Agents
+<p align="left">
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" height="28" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" height="28" />
+  <img src="https://img.shields.io/badge/LlamaIndex-4B0082?style=for-the-badge" alt="LlamaIndex" height="28" />
+  <img src="https://img.shields.io/badge/ChromaDB-FF6600?style=for-the-badge" alt="ChromaDB" height="28" />
+  <img src="https://img.shields.io/badge/FAISS-0052CC?style=for-the-badge" alt="FAISS" height="28" />
+</p>
+
+### 🚀 Production Serving & UI Deployment
+<p align="left">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" height="28" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" height="28" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" height="28" />
 </p>
 
 ---

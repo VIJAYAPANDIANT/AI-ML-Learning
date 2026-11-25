@@ -26,3 +26,7 @@ desktop.ini
 dist/
 build/
 *.egg-info/
+
+# Scratch & Temporary Testing Scripts
+scratch/
+
